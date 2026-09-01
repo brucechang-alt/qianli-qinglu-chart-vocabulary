@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg class="chart-svg" role="img" aria-labelledby="t-瀑布图示例 d-瀑布图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--rule);stroke-width:1}.grid{stroke:var(--rule);stroke-width:1;stroke-dasharray:3 4;opacity:.72}
+.red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
+  <title id="t-瀑布图示例">瀑布图示例</title>
+  <desc id="d-瀑布图示例">增减项把起点逐步桥接到终点。</desc>
+  <line x1="38" y1="156" x2="340" y2="156" class="axis"/>
+  <rect x="45" y="66" width="30" height="90" fill="#594a35"/>
+  <text x="60" y="61" class="value" text-anchor="middle">100</text>
+  <rect x="96" y="44.39999999999999" width="30" height="21.6" fill="#006f91"/>
+  <text x="111" y="37.39999999999999" class="value" text-anchor="middle">+24</text>
+  <line x1="75" y1="66" x2="96" y2="66" class="connector"/>
+  <rect x="147" y="44.39999999999999" width="30" height="13.5" fill="#e48f75"/>
+  <text x="162" y="37.39999999999999" class="value" text-anchor="middle">-15</text>
+  <line x1="126" y1="44.39999999999999" x2="147" y2="44.39999999999999" class="connector"/>
+  <rect x="198" y="41.7" width="30" height="16.2" fill="#006f91"/>
+  <text x="213" y="34.7" class="value" text-anchor="middle">+18</text>
+  <line x1="177" y1="57.89999999999999" x2="198" y2="57.89999999999999" class="connector"/>
+  <rect x="249" y="41.7" width="30" height="8.1" fill="#e48f75"/>
+  <text x="264" y="34.7" class="value" text-anchor="middle">-9</text>
+  <line x1="228" y1="41.7" x2="249" y2="41.7" class="connector"/>
+  <rect x="300" y="49.8" width="30" height="106.2" fill="#594a35"/>
+  <text x="315" y="44.8" class="value" text-anchor="middle">118</text>
+  <text x="60" y="180" class="axis-title" text-anchor="middle">起点</text>
+  <text x="315" y="180" class="axis-title" text-anchor="middle">终点</text>
+</svg>
