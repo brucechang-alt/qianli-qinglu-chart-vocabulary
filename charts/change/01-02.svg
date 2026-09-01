@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg class="chart-svg" role="img" aria-labelledby="t-时间柱形图示例 d-时间柱形图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--rule);stroke-width:1}.grid{stroke:var(--rule);stroke-width:1;stroke-dasharray:3 4;opacity:.72}
+.red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
+  <title id="t-时间柱形图示例">时间柱形图示例</title>
+  <desc id="d-时间柱形图示例">每根柱代表一个离散月份。</desc>
+  <line x1="38" y1="158" x2="340" y2="158" class="axis"/>
+  <line x1="38" y1="20" x2="38" y2="158" class="axis"/>
+  <text x="189" y="184" class="axis-title" text-anchor="middle" data-axis="x">月份</text>
+  <text x="12" y="90" class="axis-title" text-anchor="middle" transform="rotate(-90 12 90)" data-axis="y">数量</text>
+  <rect x="45" y="103.6" width="15" height="54.4" fill="#006f91"/>
+  <rect x="70" y="98.5" width="15" height="59.5" fill="#006f91"/>
+  <rect x="95" y="100.2" width="15" height="57.8" fill="#006f91"/>
+  <rect x="120" y="88.3" width="15" height="69.7" fill="#006f91"/>
+  <rect x="145" y="83.2" width="15" height="74.8" fill="#006f91"/>
+  <rect x="170" y="86.60000000000001" width="15" height="71.39999999999999" fill="#006f91"/>
+  <rect x="195" y="73" width="15" height="85" fill="#006f91"/>
+  <rect x="220" y="66.2" width="15" height="91.8" fill="#006f91"/>
+  <rect x="245" y="71.3" width="15" height="86.7" fill="#006f91"/>
+  <rect x="270" y="57.7" width="15" height="100.3" fill="#006f91"/>
+  <rect x="295" y="50.900000000000006" width="15" height="107.1" fill="#006f91"/>
+  <rect x="320" y="42.400000000000006" width="15" height="115.6" fill="#c44530"/>
+  <text x="337" y="35" class="note" text-anchor="end">12月 68</text>
+</svg>

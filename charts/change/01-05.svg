@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg class="chart-svg" role="img" aria-labelledby="t-坡度图示例 d-坡度图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--rule);stroke-width:1}.grid{stroke:var(--rule);stroke-width:1;stroke-dasharray:3 4;opacity:.72}
+.red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
+  <title id="t-坡度图示例">坡度图示例</title>
+  <desc id="d-坡度图示例">两个时点共用尺度，线条显示升降和反转。</desc>
+  <line x1="76" y1="24" x2="76" y2="160" class="axis"/>
+  <line x1="284" y1="24" x2="284" y2="160" class="axis"/>
+  <line x1="76" y1="78.39999999999999" x2="284" y2="49.599999999999994" class="" stroke="#006f91" stroke-width="2"/>
+  <circle cx="76" cy="78.39999999999999" r="3.5" fill="#f3e6c6" stroke="#006f91" stroke-width="2"/>
+  <circle cx="284" cy="49.599999999999994" r="3.5" fill="#006f91"/>
+  <text x="68" y="82.39999999999999" class="value" text-anchor="end">42</text>
+  <text x="292" y="53.599999999999994" class="value" text-anchor="start">58</text>
+  <line x1="76" y1="55" x2="284" y2="65.8" class="" stroke="#c44530" stroke-width="2"/>
+  <circle cx="76" cy="55" r="3.5" fill="#f3e6c6" stroke="#c44530" stroke-width="2"/>
+  <circle cx="284" cy="65.8" r="3.5" fill="#c44530"/>
+  <text x="68" y="59" class="value" text-anchor="end">55</text>
+  <text x="292" y="69.8" class="value" text-anchor="start">49</text>
+  <line x1="76" y1="85.6" x2="284" y2="60.39999999999999" class="" stroke="#006f91" stroke-width="2"/>
+  <circle cx="76" cy="85.6" r="3.5" fill="#f3e6c6" stroke="#006f91" stroke-width="2"/>
+  <circle cx="284" cy="60.39999999999999" r="3.5" fill="#006f91"/>
+  <text x="68" y="89.6" class="value" text-anchor="end">38</text>
+  <text x="292" y="64.39999999999999" class="value" text-anchor="start">52</text>
+  <line x1="76" y1="44.2" x2="284" y2="31.599999999999994" class="" stroke="#006f91" stroke-width="2"/>
+  <circle cx="76" cy="44.2" r="3.5" fill="#f3e6c6" stroke="#006f91" stroke-width="2"/>
+  <circle cx="284" cy="31.599999999999994" r="3.5" fill="#006f91"/>
+  <text x="68" y="48.2" class="value" text-anchor="end">61</text>
+  <text x="292" y="35.599999999999994" class="value" text-anchor="start">68</text>
+  <line x1="76" y1="69.39999999999999" x2="284" y2="47.8" class="" stroke="#006f91" stroke-width="2"/>
+  <circle cx="76" cy="69.39999999999999" r="3.5" fill="#f3e6c6" stroke="#006f91" stroke-width="2"/>
+  <circle cx="284" cy="47.8" r="3.5" fill="#006f91"/>
+  <text x="68" y="73.39999999999999" class="value" text-anchor="end">47</text>
+  <text x="292" y="51.8" class="value" text-anchor="start">59</text>
+  <text x="76" y="180" class="axis-title" text-anchor="middle">起点</text>
+  <text x="284" y="180" class="axis-title" text-anchor="middle">终点</text>
+</svg>

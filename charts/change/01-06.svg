@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg class="chart-svg" role="img" aria-labelledby="t-面积图示例 d-面积图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--rule);stroke-width:1}.grid{stroke:var(--rule);stroke-width:1;stroke-dasharray:3 4;opacity:.72}
+.red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
+  <title id="t-面积图示例">面积图示例</title>
+  <desc id="d-面积图示例">填充面积强化总量随时间变化的规模感。</desc>
+  <line x1="38" y1="158" x2="340" y2="158" class="axis"/>
+  <line x1="38" y1="20" x2="38" y2="158" class="axis"/>
+  <text x="189" y="184" class="axis-title" text-anchor="middle" data-axis="x">月份</text>
+  <text x="12" y="90" class="axis-title" text-anchor="middle" transform="rotate(-90 12 90)" data-axis="y">总量</text>
+  <path d="M44,158 L44,95.6 L70,90.5 L96,92.2 L122,80.3 L148,75.2 L174,78.60000000000001 L200,65 L226,58.2 L252,63.3 L278,49.7 L304,42.900000000000006 L330,34.400000000000006 L330,158 Z" fill="#c7e9d8" stroke="#006f91" stroke-width="2.5"/>
+  <text x="337" y="28" class="value" text-anchor="end">68</text>
+</svg>
