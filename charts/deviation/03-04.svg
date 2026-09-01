@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg class="chart-svg" role="img" aria-labelledby="t-盈余赤字面积图示例 d-盈余赤字面积图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--rule);stroke-width:1}.grid{stroke:var(--rule);stroke-width:1;stroke-dasharray:3 4;opacity:.72}
+.red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
+  <title id="t-盈余赤字面积图示例">盈余赤字面积图示例</title>
+  <desc id="d-盈余赤字面积图示例">时间序列穿过零线形成正负区域。</desc>
+  <line x1="38" y1="94" x2="342" y2="94" class="zero"/>
+  <path d="M42,94 L42,148 L69,130 L96,109 L123,82 L123,94 Z M204,94 L204,67 L231,103 L258,127 L285,115 L285,94 Z" fill="#e48f75" stroke="#c44530" stroke-width="1.5"/>
+  <path d="M123,94 L123,82 L150,58 L177,40 L204,67 L204,94 Z M285,94 L285,115 L312,76 L339,52 L339,94 Z" fill="#c7e9d8" stroke="#006f91" stroke-width="1.5"/>
+  <text x="40" y="181" class="axis-title" text-anchor="start">1月</text>
+  <text x="340" y="181" class="axis-title" text-anchor="end">12月</text>
+</svg>
