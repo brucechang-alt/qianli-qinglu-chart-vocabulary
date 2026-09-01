@@ -1,0 +1,481 @@
+{
+  "project": "Qianli Qinglu Chart Vocabulary",
+  "version": "1.0.0",
+  "chart_count": 67,
+  "families": [
+    {
+      "id": 1,
+      "name": "随时间变化",
+      "question": "趋势、节律、转折和持续时间是什么？",
+      "directory": "change",
+      "charts": [
+        {
+          "id": 1,
+          "name": "折线图",
+          "question": "连续趋势的形状和转折是什么？",
+          "file": "charts/change/01-01.svg"
+        },
+        {
+          "id": 2,
+          "name": "时间柱形图",
+          "question": "每个离散周期发生了多少？",
+          "file": "charts/change/01-02.svg"
+        },
+        {
+          "id": 3,
+          "name": "时间折线＋柱形图",
+          "question": "总量与比率是否同步变化？",
+          "file": "charts/change/01-03.svg"
+        },
+        {
+          "id": 4,
+          "name": "股价区间图",
+          "question": "每期的开高低收和波动范围怎样？",
+          "file": "charts/change/01-04.svg"
+        },
+        {
+          "id": 5,
+          "name": "时间坡度图",
+          "question": "两个关键时点之间发生了什么变化？",
+          "file": "charts/change/01-05.svg"
+        },
+        {
+          "id": 6,
+          "name": "面积图",
+          "question": "总量随时间积累或变化的规模感怎样？",
+          "file": "charts/change/01-06.svg"
+        },
+        {
+          "id": 7,
+          "name": "扇形预测图",
+          "question": "预测中心与不确定范围如何扩展？",
+          "file": "charts/change/01-07.svg"
+        },
+        {
+          "id": 8,
+          "name": "时间连接散点图",
+          "question": "两个指标的组合状态沿时间如何迁移？",
+          "file": "charts/change/01-08.svg"
+        },
+        {
+          "id": 9,
+          "name": "日历热力图",
+          "question": "一年内哪些日期集中出现高低值？",
+          "file": "charts/change/01-09.svg"
+        },
+        {
+          "id": 10,
+          "name": "Priestley时间带",
+          "question": "多个事件的持续时间和重叠关系怎样？",
+          "file": "charts/change/01-10.svg"
+        },
+        {
+          "id": 11,
+          "name": "周期圆形时间图",
+          "question": "事件是否按日、周或年周期重复？",
+          "file": "charts/change/01-11.svg"
+        },
+        {
+          "id": 12,
+          "name": "地震波式事件图",
+          "question": "高频事件在时间上何时密集、强度多大？",
+          "file": "charts/change/01-12.svg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "排名",
+      "question": "谁最高、谁最低，名次差距多大？",
+      "directory": "ranking",
+      "charts": [
+        {
+          "id": 13,
+          "name": "排序条形图",
+          "question": "长名称类别的高低顺序是什么？",
+          "file": "charts/ranking/02-01.svg"
+        },
+        {
+          "id": 14,
+          "name": "排序柱形图",
+          "question": "短名称类别的名次和差距是什么？",
+          "file": "charts/ranking/02-02.svg"
+        },
+        {
+          "id": 15,
+          "name": "排序比例符号图",
+          "question": "规模相差悬殊时如何同时看排名与量级？",
+          "file": "charts/ranking/02-03.svg"
+        },
+        {
+          "id": 16,
+          "name": "排序点带图",
+          "question": "一批对象沿单一尺度如何排布？",
+          "file": "charts/ranking/02-04.svg"
+        },
+        {
+          "id": 17,
+          "name": "坡度图",
+          "question": "两个时点之间谁升谁降、名次是否反转？",
+          "file": "charts/ranking/02-05.svg"
+        },
+        {
+          "id": 18,
+          "name": "棒棒糖图",
+          "question": "排名中哪些值最值得突出？",
+          "file": "charts/ranking/02-06.svg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "偏差",
+      "question": "数值相对同一基准偏离了多少？",
+      "directory": "deviation",
+      "charts": [
+        {
+          "id": 19,
+          "name": "发散条形图",
+          "question": "哪些类别高于或低于同一基准？",
+          "file": "charts/deviation/03-01.svg"
+        },
+        {
+          "id": 20,
+          "name": "发散堆叠条形图",
+          "question": "态度或结果在负向与正向之间如何构成？",
+          "file": "charts/deviation/03-02.svg"
+        },
+        {
+          "id": 21,
+          "name": "脊柱图",
+          "question": "两部分占比是否跨过50%分界？",
+          "file": "charts/deviation/03-03.svg"
+        },
+        {
+          "id": 22,
+          "name": "盈余／赤字面积图",
+          "question": "一段时间内何时越过基准，偏离多深？",
+          "file": "charts/deviation/03-04.svg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "量级",
+      "question": "不同对象的绝对规模相差多大？",
+      "directory": "magnitude",
+      "charts": [
+        {
+          "id": 23,
+          "name": "柱形图",
+          "question": "短标签类别的绝对量如何比较？",
+          "file": "charts/magnitude/04-01.svg"
+        },
+        {
+          "id": 24,
+          "name": "条形图",
+          "question": "长标签类别的绝对量如何比较？",
+          "file": "charts/magnitude/04-02.svg"
+        },
+        {
+          "id": 25,
+          "name": "成对柱形图",
+          "question": "每个类别的两项同单位数值如何比较？",
+          "file": "charts/magnitude/04-03.svg"
+        },
+        {
+          "id": 26,
+          "name": "成对条形图",
+          "question": "长标签类别的两项数值差多少？",
+          "file": "charts/magnitude/04-04.svg"
+        },
+        {
+          "id": 27,
+          "name": "比例堆叠条形图",
+          "question": "一个总量内部的量级与占比如何读？",
+          "file": "charts/magnitude/04-05.svg"
+        },
+        {
+          "id": 28,
+          "name": "比例符号图",
+          "question": "规模差距很大时如何压缩展示？",
+          "file": "charts/magnitude/04-06.svg"
+        },
+        {
+          "id": 29,
+          "name": "象形单位图",
+          "question": "整数或近似量能否用固定单位直观表达？",
+          "file": "charts/magnitude/04-07.svg"
+        },
+        {
+          "id": 30,
+          "name": "棒棒糖比较图",
+          "question": "如何减少墨量并保留量级比较？",
+          "file": "charts/magnitude/04-08.svg"
+        },
+        {
+          "id": 31,
+          "name": "雷达图",
+          "question": "少数对象在同量纲多指标上的轮廓如何？",
+          "file": "charts/magnitude/04-09.svg"
+        },
+        {
+          "id": 32,
+          "name": "平行坐标图",
+          "question": "多个对象在多指标上有哪些模式与异常？",
+          "file": "charts/magnitude/04-10.svg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "分布",
+      "question": "数值如何集中、分散或偏斜？",
+      "directory": "distribution",
+      "charts": [
+        {
+          "id": 33,
+          "name": "直方图",
+          "question": "连续数值的形状和峰值在哪里？",
+          "file": "charts/distribution/05-01.svg"
+        },
+        {
+          "id": 34,
+          "name": "箱线图",
+          "question": "中位数、四分位和异常值如何比较？",
+          "file": "charts/distribution/05-02.svg"
+        },
+        {
+          "id": 35,
+          "name": "小提琴图",
+          "question": "分布密度是否多峰或偏斜？",
+          "file": "charts/distribution/05-03.svg"
+        },
+        {
+          "id": 36,
+          "name": "人口金字塔",
+          "question": "两个互斥群体在有序年龄段如何分布？",
+          "file": "charts/distribution/05-04.svg"
+        },
+        {
+          "id": 37,
+          "name": "点带分布图",
+          "question": "每个观察值在哪里，同时能否看集中区？",
+          "file": "charts/distribution/05-05.svg"
+        },
+        {
+          "id": 38,
+          "name": "堆点图",
+          "question": "离散取值的频数如何累积？",
+          "file": "charts/distribution/05-06.svg"
+        },
+        {
+          "id": 39,
+          "name": "条码图",
+          "question": "一维数据在哪里密集、哪里空缺？",
+          "file": "charts/distribution/05-07.svg"
+        },
+        {
+          "id": 40,
+          "name": "累积分布曲线",
+          "question": "低于某个阈值的观察占多少？",
+          "file": "charts/distribution/05-08.svg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "相关性",
+      "question": "两个或三个变量是否共同变化？",
+      "directory": "correlation",
+      "charts": [
+        {
+          "id": 41,
+          "name": "散点图",
+          "question": "两个连续变量是否相关？",
+          "file": "charts/correlation/06-01.svg"
+        },
+        {
+          "id": 42,
+          "name": "折线＋柱形组合图",
+          "question": "一个量的变化是否与另一个量同步？",
+          "file": "charts/correlation/06-02.svg"
+        },
+        {
+          "id": 43,
+          "name": "连接散点图",
+          "question": "两个变量的联合位置随时间如何移动？",
+          "file": "charts/correlation/06-03.svg"
+        },
+        {
+          "id": 44,
+          "name": "气泡图",
+          "question": "第三个量是否改变二维关系的判断？",
+          "file": "charts/correlation/06-04.svg"
+        },
+        {
+          "id": 45,
+          "name": "二维热力图",
+          "question": "两个有序维度在哪些组合上集中？",
+          "file": "charts/correlation/06-05.svg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "部分与整体",
+      "question": "各部分如何组成一个整体？",
+      "directory": "part-to-whole",
+      "charts": [
+        {
+          "id": 46,
+          "name": "堆叠柱形图",
+          "question": "各期总量和构成如何同时变化？",
+          "file": "charts/part-to-whole/07-01.svg"
+        },
+        {
+          "id": 47,
+          "name": "100%堆叠条形图",
+          "question": "不同组的构成比例如何比较？",
+          "file": "charts/part-to-whole/07-02.svg"
+        },
+        {
+          "id": 48,
+          "name": "饼图",
+          "question": "少数部分占整体的大致比例是什么？",
+          "file": "charts/part-to-whole/07-03.svg"
+        },
+        {
+          "id": 49,
+          "name": "环形图",
+          "question": "一个整体中主要部分占多少？",
+          "file": "charts/part-to-whole/07-04.svg"
+        },
+        {
+          "id": 50,
+          "name": "矩形树图",
+          "question": "层级中的面积构成和大项是什么？",
+          "file": "charts/part-to-whole/07-05.svg"
+        },
+        {
+          "id": 51,
+          "name": "沃罗诺伊构成图",
+          "question": "不规则分区能否表达整体中的份额？",
+          "file": "charts/part-to-whole/07-06.svg"
+        },
+        {
+          "id": 52,
+          "name": "弧形构成图",
+          "question": "一个总量的完成度或分段进度如何？",
+          "file": "charts/part-to-whole/07-07.svg"
+        },
+        {
+          "id": 53,
+          "name": "百格图",
+          "question": "百分比如何转换成可数的100个单位？",
+          "file": "charts/part-to-whole/07-08.svg"
+        },
+        {
+          "id": 54,
+          "name": "集合关系图",
+          "question": "两个集合之间有哪些独有部分和重叠部分？",
+          "file": "charts/part-to-whole/07-09.svg"
+        },
+        {
+          "id": 55,
+          "name": "瀑布图",
+          "question": "各增减项怎样从起点累加到终点？",
+          "file": "charts/part-to-whole/07-10.svg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "流动与关系",
+      "question": "事物如何在状态、地点或主体之间移动？",
+      "directory": "flow-and-relationship",
+      "charts": [
+        {
+          "id": 56,
+          "name": "桑基图",
+          "question": "一批总量如何从来源分配到去向？",
+          "file": "charts/flow-and-relationship/08-01.svg"
+        },
+        {
+          "id": 57,
+          "name": "瀑布桥接图",
+          "question": "连续增减如何把起点推到终点？",
+          "file": "charts/flow-and-relationship/08-02.svg"
+        },
+        {
+          "id": 58,
+          "name": "弦图",
+          "question": "少量群体之间的双向联系规模如何？",
+          "file": "charts/flow-and-relationship/08-03.svg"
+        },
+        {
+          "id": 59,
+          "name": "网络关系图",
+          "question": "谁与谁相连，中心、群落和桥梁节点在哪里？",
+          "file": "charts/flow-and-relationship/08-04.svg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "空间",
+      "question": "位置或地理格局是否比精确数值更重要？",
+      "directory": "spatial",
+      "charts": [
+        {
+          "id": 60,
+          "name": "分级设色地图",
+          "question": "率、比值或标准化指标在区域间如何变化？",
+          "file": "charts/spatial/09-01.svg"
+        },
+        {
+          "id": 61,
+          "name": "比例符号地图",
+          "question": "地点上的绝对数量或规模有多大？",
+          "file": "charts/spatial/09-02.svg"
+        },
+        {
+          "id": 62,
+          "name": "流向地图",
+          "question": "对象在地点之间从哪里流向哪里？",
+          "file": "charts/spatial/09-03.svg"
+        },
+        {
+          "id": 63,
+          "name": "等值线地图",
+          "question": "连续空间表面在哪里达到相同值？",
+          "file": "charts/spatial/09-04.svg"
+        },
+        {
+          "id": 64,
+          "name": "等面积统计地图",
+          "question": "如何消除真实面积对区域比较的干扰？",
+          "file": "charts/spatial/09-05.svg"
+        },
+        {
+          "id": 65,
+          "name": "变形统计地图",
+          "question": "如何让区域面积直接表达数量？",
+          "file": "charts/spatial/09-06.svg"
+        },
+        {
+          "id": 66,
+          "name": "点密度地图",
+          "question": "数量在区域内部大致集中在哪里？",
+          "file": "charts/spatial/09-07.svg"
+        },
+        {
+          "id": 67,
+          "name": "空间热力图",
+          "question": "高密度热点在连续空间中在哪里？",
+          "file": "charts/spatial/09-08.svg"
+        }
+      ]
+    }
+  ]
+}
