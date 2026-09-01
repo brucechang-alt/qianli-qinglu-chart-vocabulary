@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg class="chart-svg" role="img" aria-labelledby="t-二维热力图示例 d-二维热力图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--rule);stroke-width:1}.grid{stroke:var(--rule);stroke-width:1;stroke-dasharray:3 4;opacity:.72}
+.red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
+  <title id="t-二维热力图示例">二维热力图示例</title>
+  <desc id="d-二维热力图示例">规则矩阵以单色深浅呈现集中区域。</desc>
+  <line x1="38" y1="158" x2="340" y2="158" class="axis"/>
+  <line x1="38" y1="20" x2="38" y2="158" class="axis"/>
+  <text x="189" y="184" class="axis-title" text-anchor="middle" data-axis="x">维度X</text>
+  <text x="12" y="90" class="axis-title" text-anchor="middle" transform="rotate(-90 12 90)" data-axis="y">维度Y</text>
+  <rect x="55" y="29" width="40" height="20" fill="#e2cfa1"/>
+  <text x="75" y="44" class="value" text-anchor="middle">0</text>
+  <rect x="99" y="29" width="40" height="20" fill="#55b9c1"/>
+  <text x="119" y="44" class="value" text-anchor="middle">3</text>
+  <rect x="143" y="29" width="40" height="20" fill="#e2cfa1"/>
+  <text x="163" y="44" class="value" text-anchor="middle">0</text>
+  <rect x="187" y="29" width="40" height="20" fill="#55b9c1"/>
+  <text x="207" y="44" class="value" text-anchor="middle">3</text>
+  <rect x="231" y="29" width="40" height="20" fill="#e2cfa1"/>
+  <text x="251" y="44" class="value" text-anchor="middle">0</text>
+  <rect x="275" y="29" width="40" height="20" fill="#55b9c1"/>
+  <text x="295" y="44" class="value" text-anchor="middle">3</text>
+  <rect x="55" y="53" width="40" height="20" fill="#55b9c1"/>
+  <text x="75" y="68" class="value" text-anchor="middle">3</text>
+  <rect x="99" y="53" width="40" height="20" fill="#e2cfa1"/>
+  <text x="119" y="68" class="value" text-anchor="middle">0</text>
+  <rect x="143" y="53" width="40" height="20" fill="#55b9c1"/>
+  <text x="163" y="68" class="value" text-anchor="middle">3</text>
+  <rect x="187" y="53" width="40" height="20" fill="#e2cfa1"/>
+  <text x="207" y="68" class="value" text-anchor="middle">0</text>
+  <rect x="231" y="53" width="40" height="20" fill="#55b9c1"/>
+  <text x="251" y="68" class="value" text-anchor="middle">3</text>
+  <rect x="275" y="53" width="40" height="20" fill="#e2cfa1"/>
+  <text x="295" y="68" class="value" text-anchor="middle">0</text>
+  <rect x="55" y="77" width="40" height="20" fill="#e2cfa1"/>
+  <text x="75" y="92" class="value" text-anchor="middle">0</text>
+  <rect x="99" y="77" width="40" height="20" fill="#55b9c1"/>
+  <text x="119" y="92" class="value" text-anchor="middle">3</text>
+  <rect x="143" y="77" width="40" height="20" fill="#e2cfa1"/>
+  <text x="163" y="92" class="value" text-anchor="middle">0</text>
+  <rect x="187" y="77" width="40" height="20" fill="#55b9c1"/>
+  <text x="207" y="92" class="value" text-anchor="middle">3</text>
+  <rect x="231" y="77" width="40" height="20" fill="#e2cfa1"/>
+  <text x="251" y="92" class="value" text-anchor="middle">0</text>
+  <rect x="275" y="77" width="40" height="20" fill="#55b9c1"/>
+  <text x="295" y="92" class="value" text-anchor="middle">3</text>
+  <rect x="55" y="101" width="40" height="20" fill="#55b9c1"/>
+  <text x="75" y="116" class="value" text-anchor="middle">3</text>
+  <rect x="99" y="101" width="40" height="20" fill="#e2cfa1"/>
+  <text x="119" y="116" class="value" text-anchor="middle">0</text>
+  <rect x="143" y="101" width="40" height="20" fill="#55b9c1"/>
+  <text x="163" y="116" class="value" text-anchor="middle">3</text>
+  <rect x="187" y="101" width="40" height="20" fill="#e2cfa1"/>
+  <text x="207" y="116" class="value" text-anchor="middle">0</text>
+  <rect x="231" y="101" width="40" height="20" fill="#55b9c1"/>
+  <text x="251" y="116" class="value" text-anchor="middle">3</text>
+  <rect x="275" y="101" width="40" height="20" fill="#e2cfa1"/>
+  <text x="295" y="116" class="value" text-anchor="middle">0</text>
+  <rect x="55" y="125" width="40" height="20" fill="#e2cfa1"/>
+  <text x="75" y="140" class="value" text-anchor="middle">0</text>
+  <rect x="99" y="125" width="40" height="20" fill="#55b9c1"/>
+  <text x="119" y="140" class="value" text-anchor="middle">3</text>
+  <rect x="143" y="125" width="40" height="20" fill="#e2cfa1"/>
+  <text x="163" y="140" class="value" text-anchor="middle">0</text>
+  <rect x="187" y="125" width="40" height="20" fill="#55b9c1"/>
+  <text x="207" y="140" class="value" text-anchor="middle">3</text>
+  <rect x="231" y="125" width="40" height="20" fill="#e2cfa1"/>
+  <text x="251" y="140" class="value" text-anchor="middle">0</text>
+  <rect x="275" y="125" width="40" height="20" fill="#55b9c1"/>
+  <text x="295" y="140" class="value" text-anchor="middle">3</text>
+</svg>
