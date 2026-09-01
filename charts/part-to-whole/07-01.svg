@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg class="chart-svg" role="img" aria-labelledby="t-堆叠柱形图示例 d-堆叠柱形图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--rule);stroke-width:1}.grid{stroke:var(--rule);stroke-width:1;stroke-dasharray:3 4;opacity:.72}
+.red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
+  <title id="t-堆叠柱形图示例">堆叠柱形图示例</title>
+  <desc id="d-堆叠柱形图示例">每根柱同时显示总量与内部构成。</desc>
+  <line x1="38" y1="158" x2="340" y2="158" class="axis"/>
+  <line x1="38" y1="20" x2="38" y2="158" class="axis"/>
+  <text x="189" y="184" class="axis-title" text-anchor="middle" data-axis="x">时期</text>
+  <text x="12" y="90" class="axis-title" text-anchor="middle" transform="rotate(-90 12 90)" data-axis="y">总量</text>
+  <rect x="63" y="123" width="32" height="35" fill="#006f91"/>
+  <rect x="63" y="95.5" width="32" height="27.5" fill="#55b9c1"/>
+  <rect x="63" y="73" width="32" height="22.5" fill="#b97a12"/>
+  <rect x="63" y="58" width="32" height="15" fill="#e48f75"/>
+  <text x="79" y="176" class="tick" text-anchor="middle">1期</text>
+  <rect x="118" y="119.25" width="32" height="38.75" fill="#006f91"/>
+  <rect x="118" y="89.25" width="32" height="30" fill="#55b9c1"/>
+  <rect x="118" y="65.5" width="32" height="23.75" fill="#b97a12"/>
+  <rect x="118" y="48" width="32" height="17.5" fill="#e48f75"/>
+  <text x="134" y="176" class="tick" text-anchor="middle">2期</text>
+  <rect x="173" y="115.5" width="32" height="42.5" fill="#006f91"/>
+  <rect x="173" y="83" width="32" height="32.5" fill="#55b9c1"/>
+  <rect x="173" y="58" width="32" height="25" fill="#b97a12"/>
+  <rect x="173" y="38" width="32" height="20" fill="#e48f75"/>
+  <text x="189" y="176" class="tick" text-anchor="middle">3期</text>
+  <rect x="228" y="111.75" width="32" height="46.25" fill="#006f91"/>
+  <rect x="228" y="76.75" width="32" height="35" fill="#55b9c1"/>
+  <rect x="228" y="50.5" width="32" height="26.25" fill="#b97a12"/>
+  <rect x="228" y="28" width="32" height="22.5" fill="#e48f75"/>
+  <text x="244" y="176" class="tick" text-anchor="middle">4期</text>
+  <rect x="283" y="108" width="32" height="50" fill="#006f91"/>
+  <rect x="283" y="70.5" width="32" height="37.5" fill="#55b9c1"/>
+  <rect x="283" y="43" width="32" height="27.5" fill="#b97a12"/>
+  <rect x="283" y="18" width="32" height="25" fill="#e48f75"/>
+  <text x="299" y="176" class="tick" text-anchor="middle">5期</text>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg class="chart-svg" role="img" aria-labelledby="t-集合关系图示例 d-集合关系图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--rule);stroke-width:1}.grid{stroke:var(--rule);stroke-width:1;stroke-dasharray:3 4;opacity:.72}
+.red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
+  <title id="t-集合关系图示例">集合关系图示例</title>
+  <desc id="d-集合关系图示例">两个集合的交集被单独标明。</desc>
+  <circle cx="145" cy="92" r="62" fill="#55b9c1" opacity="0.72"/>
+  <circle cx="215" cy="92" r="62" fill="#e48f75" opacity="0.72"/>
+  <text x="119" y="55" class="note" text-anchor="middle">集合甲</text>
+  <text x="241" y="55" class="note" text-anchor="middle">集合乙</text>
+  <text x="180" y="99" class="big-value" text-anchor="middle">交集 18</text>
+  <text x="103" y="102" class="value" text-anchor="middle">32</text>
+  <text x="257" y="102" class="value" text-anchor="middle">27</text>
+</svg>

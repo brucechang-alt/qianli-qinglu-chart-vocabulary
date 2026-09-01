@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg class="chart-svg" role="img" aria-labelledby="t-饼图示例 d-饼图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--rule);stroke-width:1}.grid{stroke:var(--rule);stroke-width:1;stroke-dasharray:3 4;opacity:.72}
+.red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
+  <title id="t-饼图示例">饼图示例</title>
+  <desc id="d-饼图示例">五个扇区组成同一个100%整体。</desc>
+  <path d="M145,30 A64,64 0 0 1 188.81101477943608,140.65399215497033 L145,94 A0,0 0 0 0 145,94 Z" fill="#006f91" stroke="none"/>
+  <path d="M188.81101477943608,140.65399215497033 A64,64 0 0 1 93.22291236000336,131.6182561467183 L145,94 A0,0 0 0 0 145,94 Z" fill="#55b9c1" stroke="none"/>
+  <path d="M93.22291236000336,131.6182561467183 A64,64 0 0 1 88.91637247719272,63.16776485749024 L145,94 A0,0 0 0 0 145,94 Z" fill="#2f8456" stroke="none"/>
+  <path d="M88.91637247719272,63.16776485749024 A64,64 0 0 1 121.44002862818057,34.49430490315193 L145,94 A0,0 0 0 0 145,94 Z" fill="#b97a12" stroke="none"/>
+  <path d="M121.44002862818057,34.49430490315193 A64,64 0 0 1 144.99999999999994,30 L145,94 A0,0 0 0 0 145,94 Z" fill="#e48f75" stroke="none"/>
+  <text x="245" y="50" class="note" text-anchor="start">甲 38%</text>
+  <text x="245" y="76" class="note" text-anchor="start">乙 27%</text>
+  <text x="245" y="102" class="note" text-anchor="start">丙 18%</text>
+  <text x="245" y="128" class="note" text-anchor="start">丁及其他 17%</text>
+</svg>
