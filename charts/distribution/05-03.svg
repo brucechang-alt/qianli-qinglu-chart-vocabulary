@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg class="chart-svg" role="img" aria-labelledby="t-小提琴图示例 d-小提琴图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--rule);stroke-width:1}.grid{stroke:var(--rule);stroke-width:1;stroke-dasharray:3 4;opacity:.72}
+.red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
+  <title id="t-小提琴图示例">小提琴图示例</title>
+  <desc id="d-小提琴图示例">宽度表示各高度的估计密度，中线表示中位数。</desc>
+  <path d="M90,28 C82,43 60,60 62,83 C65,111 78,138 90,155 C102,138 115,111 118,83 C120,60 98,43 90,28 Z" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
+  <line x1="72" y1="98" x2="108" y2="98" class="zero"/>
+  <text x="90" y="178" class="label" text-anchor="middle">甲</text>
+  <path d="M180,28 C170,43 154,60 152,83 C155,111 168,138 180,155 C192,138 205,111 208,83 C206,60 190,43 180,28 Z" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
+  <line x1="162" y1="98" x2="198" y2="98" class="zero"/>
+  <text x="180" y="178" class="label" text-anchor="middle">乙</text>
+  <path d="M270,28 C258,43 248,60 242,83 C245,111 258,138 270,155 C282,138 295,111 298,83 C292,60 282,43 270,28 Z" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
+  <line x1="252" y1="98" x2="288" y2="98" class="zero"/>
+  <text x="270" y="178" class="label" text-anchor="middle">丙</text>
+</svg>
