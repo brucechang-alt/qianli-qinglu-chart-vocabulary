@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg class="chart-svg" role="img" aria-labelledby="t-变形统计地图示例 d-变形统计地图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--rule);stroke-width:1}.grid{stroke:var(--rule);stroke-width:1;stroke-dasharray:3 4;opacity:.72}
+.red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
+  <title id="t-变形统计地图示例">变形统计地图示例</title>
+  <desc id="d-变形统计地图示例">区域形状被简化，面积随数量改变。</desc>
+  <circle cx="80" cy="70" r="28" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
+  <text x="80" y="74" class="value" text-anchor="middle">A</text>
+  <circle cx="135" cy="55" r="38" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
+  <text x="135" y="59" class="value" text-anchor="middle">B</text>
+  <circle cx="206" cy="82" r="24" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
+  <text x="206" y="86" class="value" text-anchor="middle">C</text>
+  <circle cx="278" cy="61" r="44" fill="#e48f75" stroke="#c44530" stroke-width="2"/>
+  <text x="278" y="65" class="value" text-anchor="middle">D</text>
+  <circle cx="112" cy="132" r="31" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
+  <text x="112" y="136" class="value" text-anchor="middle">E</text>
+  <circle cx="196" cy="132" r="37" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
+  <text x="196" y="136" class="value" text-anchor="middle">F</text>
+  <circle cx="273" cy="132" r="25" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
+  <text x="273" y="136" class="value" text-anchor="middle">G</text>
+</svg>

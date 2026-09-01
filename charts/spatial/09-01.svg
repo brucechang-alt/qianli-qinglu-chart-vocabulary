@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg class="chart-svg" role="img" aria-labelledby="t-分级设色地图示例 d-分级设色地图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--rule);stroke-width:1}.grid{stroke:var(--rule);stroke-width:1;stroke-dasharray:3 4;opacity:.72}
+.red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
+  <title id="t-分级设色地图示例">分级设色地图示例</title>
+  <desc id="d-分级设色地图示例">抽象空间单元以连续色阶表达可比率值。</desc>
+  <path d="M52,34 L120,28 L132,70 L91,91 L48,72 Z" fill="#c7e9d8" stroke="#f3e6c6" stroke-width="3"/>
+  <path d="M120,28 L196,24 L206,71 L132,70 Z" fill="#b9d2dc" stroke="#f3e6c6" stroke-width="3"/>
+  <path d="M196,24 L283,34 L303,74 L250,90 L206,71 Z" fill="#55b9c1" stroke="#f3e6c6" stroke-width="3"/>
+  <path d="M48,72 L91,91 L112,142 L58,153 L38,112 Z" fill="#4f8da4" stroke="#f3e6c6" stroke-width="3"/>
+  <path d="M91,91 L164,78 L193,126 L158,158 L112,142 Z" fill="#006f91" stroke="#f3e6c6" stroke-width="3"/>
+  <path d="M164,78 L250,90 L235,144 L193,126 Z" fill="#b9d2dc" stroke="#f3e6c6" stroke-width="3"/>
+  <path d="M250,90 L303,74 L336,111 L305,154 L235,144 Z" fill="#4f8da4" stroke="#f3e6c6" stroke-width="3"/>
+  <path d="M132,70 L206,71 L164,78 Z" fill="#c7e9d8" stroke="#f3e6c6" stroke-width="3"/>
+  <text x="180" y="181" class="axis-title" text-anchor="middle">抽象空间单元 · 正式图须换权威边界</text>
+</svg>

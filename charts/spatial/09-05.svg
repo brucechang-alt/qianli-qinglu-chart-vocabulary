@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg class="chart-svg" role="img" aria-labelledby="t-等面积统计地图示例 d-等面积统计地图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--rule);stroke-width:1}.grid{stroke:var(--rule);stroke-width:1;stroke-dasharray:3 4;opacity:.72}
+.red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
+  <title id="t-等面积统计地图示例">等面积统计地图示例</title>
+  <desc id="d-等面积统计地图示例">每个区域使用同尺寸六边形，颜色表示率值。</desc>
+  <polygon points="112.78460969082653,60 92,72 71.21539030917347,60.00000000000001 71.21539030917347,36.00000000000001 92,24 112.78460969082653,36.00000000000001" fill="#c7e9d8" stroke="#f3e6c6" stroke-width="3"/>
+  <text x="92" y="52" class="value" text-anchor="middle">A</text>
+  <polygon points="170.78460969082653,60 150,72 129.21539030917347,60.00000000000001 129.21539030917347,36.00000000000001 150,24 170.78460969082653,36.00000000000001" fill="#4f8da4" stroke="#f3e6c6" stroke-width="3"/>
+  <text x="150" y="52" class="value" text-anchor="middle">B</text>
+  <polygon points="228.78460969082653,60 208,72 187.21539030917347,60.00000000000001 187.21539030917347,36.00000000000001 208,24 228.78460969082653,36.00000000000001" fill="#b9d2dc" stroke="#f3e6c6" stroke-width="3"/>
+  <text x="208" y="52" class="value" text-anchor="middle">C</text>
+  <polygon points="286.7846096908265,60 266,72 245.21539030917347,60.00000000000001 245.21539030917347,36.00000000000001 266,24 286.7846096908265,36.00000000000001" fill="#006f91" stroke="#f3e6c6" stroke-width="3"/>
+  <text x="266" y="52" class="value" text-anchor="middle">D</text>
+  <polygon points="141.78460969082653,108 121,120 100.21539030917347,108 100.21539030917347,84 121,72 141.78460969082653,84" fill="#55b9c1" stroke="#f3e6c6" stroke-width="3"/>
+  <text x="121" y="100" class="value" text-anchor="middle">E</text>
+  <polygon points="199.78460969082653,108 179,120 158.21539030917347,108 158.21539030917347,84 179,72 199.78460969082653,84" fill="#c7e9d8" stroke="#f3e6c6" stroke-width="3"/>
+  <text x="179" y="100" class="value" text-anchor="middle">F</text>
+  <polygon points="257.7846096908265,108 237,120 216.21539030917347,108 216.21539030917347,84 237,72 257.7846096908265,84" fill="#4f8da4" stroke="#f3e6c6" stroke-width="3"/>
+  <text x="237" y="100" class="value" text-anchor="middle">G</text>
+  <polygon points="315.7846096908265,108 295,120 274.2153903091735,108 274.2153903091735,84 295,72 315.7846096908265,84" fill="#b9d2dc" stroke="#f3e6c6" stroke-width="3"/>
+  <text x="295" y="100" class="value" text-anchor="middle">H</text>
+  <polygon points="112.78460969082653,156 92,168 71.21539030917347,156 71.21539030917347,132 92,120 112.78460969082653,132" fill="#006f91" stroke="#f3e6c6" stroke-width="3"/>
+  <text x="92" y="148" class="value" text-anchor="middle">I</text>
+  <polygon points="170.78460969082653,156 150,168 129.21539030917347,156 129.21539030917347,132 150,120 170.78460969082653,132" fill="#55b9c1" stroke="#f3e6c6" stroke-width="3"/>
+  <text x="150" y="148" class="value" text-anchor="middle">J</text>
+  <polygon points="228.78460969082653,156 208,168 187.21539030917347,156 187.21539030917347,132 208,120 228.78460969082653,132" fill="#c7e9d8" stroke="#f3e6c6" stroke-width="3"/>
+  <text x="208" y="148" class="value" text-anchor="middle">K</text>
+  <polygon points="286.7846096908265,156 266,168 245.21539030917347,156 245.21539030917347,132 266,120 286.7846096908265,132" fill="#4f8da4" stroke="#f3e6c6" stroke-width="3"/>
+  <text x="266" y="148" class="value" text-anchor="middle">L</text>
+</svg>
