@@ -1,0 +1,5 @@
+.DS_Store
+validation.json
+qa/
+__pycache__/
+

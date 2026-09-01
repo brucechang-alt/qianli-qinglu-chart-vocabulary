@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this chart vocabulary, please cite it as below."
+title: "Qianli Qinglü Chart Vocabulary"
+type: software
+authors:
+  - name: "AI记者"
+    alias: "AI Reporter"
+version: 1.0.0
+date-released: 2026-09-01
+license: MIT
+repository-code: "https://github.com/brucechang-alt/qianli-qinglu-chart-vocabulary"
+url: "https://brucechang-alt.github.io/qianli-qinglu-chart-vocabulary/"
+abstract: "Nine relationship families and 67 editable SVG chart examples using a modern screen palette inspired by Chinese blue-green landscape painting."

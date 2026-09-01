@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="千里青绿数据可视化词汇：九类信息关系、67种可编辑图形与一套源自中国青绿山水的现代屏幕色彩体系。">
+  <meta property="og:title" content="千里江山的青绿，让你的数据更惊艳">
+  <meta property="og:description" content="九类信息关系、67种可编辑图形，免费使用、修改与再发布。">
+  <meta property="og:image" content="assets/qianli-qinglu-preview.jpg">
+  <title>千里青绿数据可视化词汇｜AI记者</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-head">
+    <a class="brand" href="#top" aria-label="返回顶部"><img src="assets/ai-reporter-logo.png" alt="AI记者"></a>
+    <nav aria-label="页面导航"><a href="#idea">设计来源</a><a href="#palette">配色体系</a><a href="#charts">67种图形</a><a href="#license">开放许可</a></nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">QIANLI QINGLÜ CHART VOCABULARY · V1.0</p>
+      <h1>千里江山的青绿<br><em>让你的数据更惊艳</em></h1>
+      <p class="lede">从一卷青绿山河，到一套现代数据语言。九类信息关系、六十七种图形，帮助你先判断数据要表达什么，再选择最合适的图表。</p>
+      <div class="actions"><a class="primary" href="assets/qianli-qinglu-poster.png" download>下载高清总表</a><a href="#charts">浏览全部图形</a><a href="src/qianli-qinglu-chart-vocabulary.html">查看可编辑源文件</a></div>
+      <dl class="stats"><div><dt>9</dt><dd>信息关系家族</dd></div><div><dt>67</dt><dd>可编辑SVG图形</dd></div><div><dt>100%</dt><dd>免费开放使用</dd></div></dl>
+    </section>
+
+    <figure class="painting" id="idea">
+      <img src="assets/qianli-jiangshan-reference.jpg" alt="北宋王希孟《千里江山图》青绿山水局部">
+      <figcaption><strong>从《千里江山图》到现代数据语言</strong><span>北宋王希孟《千里江山图》局部，绢本设色，故宫博物院藏。数字图像来源：<a href="https://commons.wikimedia.org/wiki/File:Wang_Ximeng._A_Thousand_Li_of_Rivers_and_Mountains._(Complete,_51,3x1191,5_cm)._1113._Palace_museum,_Beijing.jpg">Wikimedia Commons</a>，Public Domain Mark 1.0。本体系是面向现代屏幕的独立色彩转译。</span></figcaption>
+    </figure>
+
+    <section class="intro">
+      <p class="section-kicker">不是给图表披上古画外衣</p>
+      <h2>让颜色承担层级、重点与叙事节奏</h2>
+      <div class="intro-grid"><p>石青建立深度，石绿承担主体，金色表现层次，朱砂只用于关键提醒，墨黛负责文字与结构。重要信息仍然通过位置、线型、符号和直接标注表达，不让读者只靠辨认颜色理解数据。</p><p>选择图表时，从读者需要理解的关系出发，而不是从熟悉的图形出发。每个SVG都提供标题、问题和可编辑源代码，可直接用于新闻报道、研究报告、课程和演示文稿。</p></div>
+    </section>
+
+    <section class="palette-section" id="palette">
+      <p class="section-kicker">QIANLI QINGLÜ PALETTE</p>
+      <h2>五个信息角色，一套清楚的色彩秩序</h2>
+      <div class="palette" aria-label="千里青绿核心配色">
+        <div style="--swatch:#006f91"><i></i><strong>石青</strong><code>#006F91</code><span>主线、核心系列、深度</span></div>
+        <div style="--swatch:#2f8456"><i></i><strong>石绿</strong><code>#2F8456</code><span>主体、增长、自然层次</span></div>
+        <div style="--swatch:#b97a12"><i></i><strong>金</strong><code>#B97A12</code><span>比较层、次级强调</span></div>
+        <div style="--swatch:#c44530"><i></i><strong>朱砂</strong><code>#C44530</code><span>转折、异常、风险提醒</span></div>
+        <div style="--swatch:#28231b"><i></i><strong>墨黛</strong><code>#28231B</code><span>文字、坐标、结构锚点</span></div>
+      </div>
+      <p class="palette-note">底色使用素绢 <code>#F3E6C6</code>。简单图表优先单一主色；二元比较最多使用两个非中性色；只有类别身份本身重要时才放宽到五色。</p>
+    </section>
+
+    <section class="charts-section" id="charts">
+      <p class="section-kicker">9 FAMILIES · 67 EDITABLE SVGS</p>
+      <h2>先选择关系，再选择图形</h2>
+      <div class="filters" id="filters" aria-label="按关系家族筛选"><button class="active" data-family="all">全部 67</button></div>
+      <div class="chart-grid" id="chart-grid" aria-live="polite"></div>
+      <noscript>浏览器需要启用JavaScript才能加载67种图形目录。你仍可直接打开 <a href="charts/manifest.json">图形清单</a>。</noscript>
+    </section>
+
+    <section class="license-section" id="license">
+      <p class="section-kicker">OPEN TO USE · CLEAR TO CREDIT</p>
+      <h2>开放图表，保留品牌</h2>
+      <div class="license-grid"><p><strong>代码</strong>HTML、CSS、JSON和构建脚本采用MIT License。</p><p><strong>设计</strong>总表、SVG图形和说明文档采用CC BY 4.0，可使用、修改和再发布，但需署名。</p><p><strong>原画</strong>仓库中的《千里江山图》参考图沿用来源文件的Public Domain Mark 1.0说明。</p><p><strong>品牌</strong>AI记者名称与Logo不包含在开放许可中，不得单独提取、再授权或用于暗示合作与背书。</p></div>
+    </section>
+  </main>
+
+  <footer><p>AI记者 · AI REPORTER</p><p>中国青绿山水启发的现代数据可视化词汇</p><p>本项目与故宫博物院、Financial Times及Wikimedia Foundation不存在隶属、合作或背书关系。</p></footer>
+
+  <script>
+  const grid=document.querySelector('#chart-grid');
+  const filters=document.querySelector('#filters');
+  let families=[];
+  function render(selected='all'){
+    grid.innerHTML='';
+    families.filter(f=>selected==='all'||f.directory===selected).forEach(f=>f.charts.forEach(c=>{
+      const article=document.createElement('article');
+      article.className='chart-card';
+      article.innerHTML=`<div class="chart-image"><img src="${c.file}" alt="${c.name}示例"></div><div class="chart-copy"><span>${String(f.id).padStart(2,'0')} · ${f.name}</span><h3>${c.name}</h3><p>${c.question}</p><a href="${c.file}" download>下载 SVG</a></div>`;
+      grid.appendChild(article);
+    }));
+  }
+  fetch('charts/manifest.json').then(r=>r.json()).then(data=>{
+    families=data.families;
+    families.forEach(f=>{const b=document.createElement('button');b.dataset.family=f.directory;b.textContent=`${f.name} ${f.charts.length}`;filters.appendChild(b)});
+    filters.addEventListener('click',e=>{if(e.target.tagName!=='BUTTON')return;filters.querySelectorAll('button').forEach(b=>b.classList.remove('active'));e.target.classList.add('active');render(e.target.dataset.family)});
+    render();
+  }).catch(()=>{grid.innerHTML='<p>图形目录暂时无法载入，请直接打开 charts/manifest.json。</p>'});
+  </script>
+</body>
+</html>
