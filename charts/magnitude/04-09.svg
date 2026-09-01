@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg class="chart-svg" role="img" aria-labelledby="t-雷达图示例 d-雷达图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--rule);stroke-width:1}.grid{stroke:var(--rule);stroke-width:1;stroke-dasharray:3 4;opacity:.72}
+.red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
+  <title id="t-雷达图示例">雷达图示例</title>
+  <desc id="d-雷达图示例">两个对象在五个已标准化指标上比较轮廓。</desc>
+  <polyline points="180,74.53999999999999 199.45861632339884,88.67751229508858 192.026086261904,111.55248770491143 167.973913738096,111.55248770491143 160.54138367660116,88.67751229508858 180,74.53999999999999" fill="none" stroke="#c4a971" stroke-width="1"/>
+  <polyline points="180,54.08 218.9172326467977,82.35502459017715 204.052172523808,128.10497540982286 155.947827476192,128.10497540982286 141.0827673532023,82.35502459017715 180,54.08" fill="none" stroke="#c4a971" stroke-width="1"/>
+  <polyline points="180,33 238.96550401029953,75.84094634875326 216.44268564213334,145.15905365124675 143.5573143578667,145.15905365124675 121.03449598970047,75.84094634875326 180,33" fill="none" stroke="#c4a971" stroke-width="1"/>
+  <line x1="180" y1="95" x2="180" y2="33" class="axis"/>
+  <line x1="180" y1="95" x2="238.96550401029953" y2="75.84094634875326" class="axis"/>
+  <line x1="180" y1="95" x2="216.44268564213334" y2="145.15905365124675" class="axis"/>
+  <line x1="180" y1="95" x2="143.5573143578667" y2="145.15905365124675" class="axis"/>
+  <line x1="180" y1="95" x2="121.03449598970047" y2="75.84094634875326" class="axis"/>
+  <polyline points="180,45.4 216.5586124863857,83.12138673622702 205.50987994949332,130.11133755587272 162.507510891776,119.07634575259843 135.18621695217237,80.43911922505248 180,45.4" fill="none" stroke="#006f91" stroke-width="2" fill-opacity="0.26"/>
+  <polyline points="180,60.9 225.99309312803362,80.05593815202755 196.76363539538133,118.0731646795735 152.6679857684,132.61929023843504 145.8000076740263,83.8877488822769 180,60.9" fill="none" stroke="#c44530" stroke-width="2" fill-opacity="0.26"/>
+  <text x="180" y="13" class="tick" text-anchor="middle">证据</text>
+  <text x="257.9866343362026" y="69.66060646125432" class="tick" text-anchor="middle">速度</text>
+  <text x="228.1983906879828" y="161.3393935387457" class="tick" text-anchor="middle">覆盖</text>
+  <text x="131.8016093120172" y="161.3393935387457" class="tick" text-anchor="middle">透明</text>
+  <text x="102.0133656637974" y="69.66060646125432" class="tick" text-anchor="middle">影响</text>
+</svg>

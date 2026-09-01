@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg class="chart-svg" role="img" aria-labelledby="t-排序条形图示例 d-排序条形图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--rule);stroke-width:1}.grid{stroke:var(--rule);stroke-width:1;stroke-dasharray:3 4;opacity:.72}
+.red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
+  <title id="t-排序条形图示例">排序条形图示例</title>
+  <desc id="d-排序条形图示例">类别按数值降序，最高项用朱砂标出。</desc>
+  <line x1="38" y1="158" x2="340" y2="158" class="axis"/>
+  <line x1="38" y1="20" x2="38" y2="158" class="axis"/>
+  <text x="189" y="184" class="axis-title" text-anchor="middle" data-axis="x">数量（件）</text>
+  <text x="33" y="34" class="label" text-anchor="end">北区</text>
+  <rect x="42" y="22" width="266.6" height="14" fill="#c44530"/>
+  <text x="314.6" y="34" class="value" text-anchor="start">86</text>
+  <text x="33" y="55" class="label" text-anchor="end">南区</text>
+  <rect x="42" y="43" width="223.20000000000002" height="14" fill="#006f91"/>
+  <text x="271.20000000000005" y="55" class="value" text-anchor="start">72</text>
+  <text x="33" y="76" class="label" text-anchor="end">东区</text>
+  <rect x="42" y="64" width="198.4" height="14" fill="#006f91"/>
+  <text x="246.4" y="76" class="value" text-anchor="start">64</text>
+  <text x="33" y="97" class="label" text-anchor="end">西区</text>
+  <rect x="42" y="85" width="164.3" height="14" fill="#006f91"/>
+  <text x="212.3" y="97" class="value" text-anchor="start">53</text>
+  <text x="33" y="118" class="label" text-anchor="end">中区</text>
+  <rect x="42" y="106" width="127.10000000000001" height="14" fill="#006f91"/>
+  <text x="175.10000000000002" y="118" class="value" text-anchor="start">41</text>
+  <text x="33" y="139" class="label" text-anchor="end">海区</text>
+  <rect x="42" y="127" width="89.9" height="14" fill="#006f91"/>
+  <text x="137.9" y="139" class="value" text-anchor="start">29</text>
+</svg>

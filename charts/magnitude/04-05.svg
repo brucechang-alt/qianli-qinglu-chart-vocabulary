@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg class="chart-svg" role="img" aria-labelledby="t-100%堆叠条形图示例 d-100%堆叠条形图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--rule);stroke-width:1}.grid{stroke:var(--rule);stroke-width:1;stroke-dasharray:3 4;opacity:.72}
+.red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
+  <title id="t-100%堆叠条形图示例">100%堆叠条形图示例</title>
+  <desc id="d-100%堆叠条形图示例">所有条长度相同，分段展示构成比例。</desc>
+  <text x="48" y="43" class="label" text-anchor="end">甲</text>
+  <rect x="57" y="29" width="98.8" height="20" fill="#006f91"/>
+  <rect x="155.8" y="29" width="70.2" height="20" fill="#55b9c1"/>
+  <rect x="226" y="29" width="46.800000000000004" height="20" fill="#2f8456"/>
+  <rect x="272.8" y="29" width="28.6" height="20" fill="#b97a12"/>
+  <rect x="301.40000000000003" y="29" width="15.600000000000001" height="20" fill="#e48f75"/>
+  <text x="48" y="77" class="label" text-anchor="end">乙</text>
+  <rect x="57" y="63" width="80.60000000000001" height="20" fill="#006f91"/>
+  <rect x="137.60000000000002" y="63" width="75.4" height="20" fill="#55b9c1"/>
+  <rect x="213.00000000000003" y="63" width="57.2" height="20" fill="#2f8456"/>
+  <rect x="270.20000000000005" y="63" width="31.200000000000003" height="20" fill="#b97a12"/>
+  <rect x="301.40000000000003" y="63" width="15.600000000000001" height="20" fill="#e48f75"/>
+  <text x="48" y="111" class="label" text-anchor="end">丙</text>
+  <rect x="57" y="97" width="117" height="20" fill="#006f91"/>
+  <rect x="174" y="97" width="54.6" height="20" fill="#55b9c1"/>
+  <rect x="228.6" y="97" width="41.6" height="20" fill="#2f8456"/>
+  <rect x="270.2" y="97" width="26" height="20" fill="#b97a12"/>
+  <rect x="296.2" y="97" width="20.8" height="20" fill="#e48f75"/>
+  <text x="48" y="145" class="label" text-anchor="end">丁</text>
+  <rect x="57" y="131" width="70.2" height="20" fill="#006f91"/>
+  <rect x="127.2" y="131" width="85.8" height="20" fill="#55b9c1"/>
+  <rect x="213" y="131" width="62.400000000000006" height="20" fill="#2f8456"/>
+  <rect x="275.4" y="131" width="23.400000000000002" height="20" fill="#b97a12"/>
+  <rect x="298.79999999999995" y="131" width="18.2" height="20" fill="#e48f75"/>
+  <text x="57" y="177" class="axis-title" text-anchor="start">0%</text>
+  <text x="317" y="177" class="axis-title" text-anchor="end">100%</text>
+</svg>

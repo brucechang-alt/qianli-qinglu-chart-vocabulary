@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg class="chart-svg" role="img" aria-labelledby="t-平行坐标图示例 d-平行坐标图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--rule);stroke-width:1}.grid{stroke:var(--rule);stroke-width:1;stroke-dasharray:3 4;opacity:.72}
+.red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
+  <title id="t-平行坐标图示例">平行坐标图示例</title>
+  <desc id="d-平行坐标图示例">多对象跨五个标准化指标形成路径。</desc>
+  <line x1="52" y1="30" x2="52" y2="155" class="axis"/>
+  <text x="52" y="177" class="tick" text-anchor="middle">甲</text>
+  <line x1="116" y1="30" x2="116" y2="155" class="axis"/>
+  <text x="116" y="177" class="tick" text-anchor="middle">乙</text>
+  <line x1="180" y1="30" x2="180" y2="155" class="axis"/>
+  <text x="180" y="177" class="tick" text-anchor="middle">丙</text>
+  <line x1="244" y1="30" x2="244" y2="155" class="axis"/>
+  <text x="244" y="177" class="tick" text-anchor="middle">丁</text>
+  <line x1="308" y1="30" x2="308" y2="155" class="axis"/>
+  <text x="308" y="177" class="tick" text-anchor="middle">戊</text>
+  <polyline points="52,130 116,92.5 180,55 244,105 308,67.5" fill="none" stroke="#006f91" stroke-width="1.5" opacity="0.5"/>
+  <polyline points="52,80 116,117.5 180,92.5 244,55 308,98.75" fill="none" stroke="#006f91" stroke-width="1.5" opacity="0.5"/>
+  <polyline points="52,111.25 116,61.25 180,80 244,123.75 308,55" fill="none" stroke="#006f91" stroke-width="1.5" opacity="0.5"/>
+  <polyline points="52,55 116,86.25 180,117.5 244,73.75 308,92.5" fill="none" stroke="#c44530" stroke-width="3" opacity="1"/>
+  <polyline points="52,95 116,105 180,65 244,86.25 308,115" fill="none" stroke="#006f91" stroke-width="1.5" opacity="0.5"/>
+</svg>
