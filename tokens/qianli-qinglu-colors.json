@@ -1,0 +1,27 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "name": "Qianli Qinglu",
+  "version": "1.0.0",
+  "colors": {
+    "paper": {"value": "#F3E6C6", "role": "page and open-fill background"},
+    "paperDeep": {"value": "#E2CFA1", "role": "supporting fill"},
+    "ink": {"value": "#28231B", "role": "primary text, axes and structural anchors"},
+    "inkSecondary": {"value": "#594A35", "role": "secondary text"},
+    "muted": {"value": "#736249", "role": "ticks and notes"},
+    "rule": {"value": "#C4A971", "role": "quiet grid and divider lines"},
+    "stoneBlue": {"value": "#006F91", "role": "primary series and depth"},
+    "stoneBlueLight": {"value": "#55B9C1", "role": "supporting series"},
+    "stoneBluePale": {"value": "#C7E9D8", "role": "open fill"},
+    "stoneGreen": {"value": "#2F8456", "role": "primary subject and natural hierarchy"},
+    "gold": {"value": "#B97A12", "role": "secondary emphasis and comparison layer"},
+    "cinnabar": {"value": "#C44530", "role": "exception, reversal and risk marker"},
+    "cinnabarLight": {"value": "#E48F75", "role": "open alert fill"},
+    "purple": {"value": "#704C99", "role": "fifth categorical root when identity requires it"}
+  },
+  "policies": {
+    "simple": "Prefer one non-neutral root plus neutrals.",
+    "binary": "Use at most two non-neutral roots plus neutrals.",
+    "categorical": "Use no more than five roots; group long tails into Other.",
+    "accessibility": "Never encode a distinction by color alone; add labels, position, line style, marker or ordering."
+  }
+}
