@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-排序柱形图示例 d-排序柱形图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -13,22 +13,22 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
   <line x1="38" y1="20" x2="38" y2="158" class="axis"/>
   <text x="189" y="184" class="axis-title" text-anchor="middle" data-axis="x">类别</text>
   <text x="12" y="90" class="axis-title" text-anchor="middle" transform="rotate(-90 12 90)" data-axis="y">数量</text>
-  <rect x="56" y="41.89999999999999" width="28" height="116.10000000000001" fill="#c44530"/>
+  <rect x="56" y="41.89999999999999" width="28" height="116.10000000000001" fill="#e14b32"/>
   <text x="70" y="176" class="label" text-anchor="middle">北</text>
   <text x="70" y="36.89999999999999" class="value" text-anchor="middle">86</text>
-  <rect x="102" y="60.8" width="28" height="97.2" fill="#006f91"/>
+  <rect x="102" y="60.8" width="28" height="97.2" fill="#007ea7"/>
   <text x="116" y="176" class="label" text-anchor="middle">南</text>
   <text x="116" y="55.8" class="value" text-anchor="middle">72</text>
-  <rect x="148" y="71.6" width="28" height="86.4" fill="#006f91"/>
+  <rect x="148" y="71.6" width="28" height="86.4" fill="#007ea7"/>
   <text x="162" y="176" class="label" text-anchor="middle">东</text>
   <text x="162" y="66.6" class="value" text-anchor="middle">64</text>
-  <rect x="194" y="86.44999999999999" width="28" height="71.55000000000001" fill="#006f91"/>
+  <rect x="194" y="86.44999999999999" width="28" height="71.55000000000001" fill="#007ea7"/>
   <text x="208" y="176" class="label" text-anchor="middle">西</text>
   <text x="208" y="81.44999999999999" class="value" text-anchor="middle">53</text>
-  <rect x="240" y="102.65" width="28" height="55.35" fill="#006f91"/>
+  <rect x="240" y="102.65" width="28" height="55.35" fill="#007ea7"/>
   <text x="254" y="176" class="label" text-anchor="middle">中</text>
   <text x="254" y="97.65" class="value" text-anchor="middle">41</text>
-  <rect x="286" y="118.85" width="28" height="39.150000000000006" fill="#006f91"/>
+  <rect x="286" y="118.85" width="28" height="39.150000000000006" fill="#007ea7"/>
   <text x="300" y="176" class="label" text-anchor="middle">海</text>
   <text x="300" y="113.85" class="value" text-anchor="middle">29</text>
 </svg>
