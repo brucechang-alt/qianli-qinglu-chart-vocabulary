@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-沃罗诺伊构成图示例 d-沃罗诺伊构成图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -9,11 +9,11 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
 .red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
   <title id="t-沃罗诺伊构成图示例">沃罗诺伊构成图示例</title>
   <desc id="d-沃罗诺伊构成图示例">不规则区域近似表达不同份额。</desc>
-  <path d="M40,22 L186,22 L174,92 L92,112 L40,78 Z" fill="#006f91" stroke="#f3e6c6" stroke-width="3"/>
-  <path d="M186,22 L340,22 L340,88 L250,105 L174,92 Z" fill="#55b9c1" stroke="#f3e6c6" stroke-width="3"/>
-  <path d="M40,78 L92,112 L110,166 L40,166 Z" fill="#2f8456" stroke="#f3e6c6" stroke-width="3"/>
-  <path d="M92,112 L174,92 L250,105 L230,166 L110,166 Z" fill="#b97a12" stroke="#f3e6c6" stroke-width="3"/>
-  <path d="M250,105 L340,88 L340,166 L230,166 Z" fill="#e48f75" stroke="#f3e6c6" stroke-width="3"/>
+  <path d="M40,22 L186,22 L174,92 L92,112 L40,78 Z" fill="#007ea7" stroke="#faf2d9" stroke-width="3"/>
+  <path d="M186,22 L340,22 L340,88 L250,105 L174,92 Z" fill="#4ec6d0" stroke="#faf2d9" stroke-width="3"/>
+  <path d="M40,78 L92,112 L110,166 L40,166 Z" fill="#259b62" stroke="#faf2d9" stroke-width="3"/>
+  <path d="M92,112 L174,92 L250,105 L230,166 L110,166 Z" fill="#d99a16" stroke="#faf2d9" stroke-width="3"/>
+  <path d="M250,105 L340,88 L340,166 L230,166 Z" fill="#f09a78" stroke="#faf2d9" stroke-width="3"/>
   <text x="106" y="65" class="value-light" text-anchor="middle">甲 38</text>
   <text x="261" y="65" class="value" text-anchor="middle">乙 27</text>
   <text x="165" y="139" class="value-light" text-anchor="middle">丁 11</text>

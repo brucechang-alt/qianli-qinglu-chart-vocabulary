@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-矩形树图示例 d-矩形树图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -9,11 +9,11 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
 .red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
   <title id="t-矩形树图示例">矩形树图示例</title>
   <desc id="d-矩形树图示例">矩形面积表达部分占整体的大小。</desc>
-  <rect x="44" y="26" width="174" height="132" fill="#006f91"/>
-  <rect x="222" y="26" width="94" height="78" fill="#55b9c1"/>
-  <rect x="222" y="108" width="94" height="50" fill="#2f8456"/>
-  <rect x="320" y="26" width="25" height="84" fill="#b97a12"/>
-  <rect x="320" y="114" width="25" height="44" fill="#e48f75"/>
+  <rect x="44" y="26" width="174" height="132" fill="#007ea7"/>
+  <rect x="222" y="26" width="94" height="78" fill="#4ec6d0"/>
+  <rect x="222" y="108" width="94" height="50" fill="#259b62"/>
+  <rect x="320" y="26" width="25" height="84" fill="#d99a16"/>
+  <rect x="320" y="114" width="25" height="44" fill="#f09a78"/>
   <text x="55" y="48" class="value-light" text-anchor="start">甲 38</text>
   <text x="232" y="48" class="value" text-anchor="start">乙 27</text>
   <text x="232" y="130" class="value-light" text-anchor="start">丙 18</text>

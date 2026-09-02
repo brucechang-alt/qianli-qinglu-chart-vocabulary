@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-环形图示例 d-环形图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -9,11 +9,11 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
 .red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
   <title id="t-环形图示例">环形图示例</title>
   <desc id="d-环形图示例">中心显示总量，外环显示五个部分。</desc>
-  <path d="M150,28 A66,66 0 0 1 195.18010899129348,142.11192940981317 L176.01279002529017,121.70080784201363 A38,38 0 0 0 150,56 Z" fill="#006f91" stroke="none"/>
-  <path d="M195.18010899129348,142.11192940981317 A66,66 0 0 1 96.60487837125348,132.79382665130322 L119.257354213752,116.33583958711398 A38,38 0 0 0 176.01279002529017,121.70080784201363 Z" fill="#55b9c1" stroke="none"/>
-  <path d="M96.60487837125348,132.79382665130322 A66,66 0 0 1 92.163759117105,62.20425750928681 L116.70034615833319,75.69336038413483 A38,38 0 0 0 119.257354213752,116.33583958711398 Z" fill="#2f8456" stroke="none"/>
-  <path d="M92.163759117105,62.20425750928681 A66,66 0 0 1 125.70377952281122,32.634751931375426 L136.0112669979822,58.66849353624646 A38,38 0 0 0 116.70034615833319,75.69336038413483 Z" fill="#b97a12" stroke="none"/>
-  <path d="M125.70377952281122,32.634751931375426 A66,66 0 0 1 149.99999999999994,28 L149.99999999999997,56 A38,38 0 0 0 136.0112669979822,58.66849353624646 Z" fill="#e48f75" stroke="none"/>
+  <path d="M150,28 A66,66 0 0 1 195.18010899129348,142.11192940981317 L176.01279002529017,121.70080784201363 A38,38 0 0 0 150,56 Z" fill="#007ea7" stroke="none"/>
+  <path d="M195.18010899129348,142.11192940981317 A66,66 0 0 1 96.60487837125348,132.79382665130322 L119.257354213752,116.33583958711398 A38,38 0 0 0 176.01279002529017,121.70080784201363 Z" fill="#4ec6d0" stroke="none"/>
+  <path d="M96.60487837125348,132.79382665130322 A66,66 0 0 1 92.163759117105,62.20425750928681 L116.70034615833319,75.69336038413483 A38,38 0 0 0 119.257354213752,116.33583958711398 Z" fill="#259b62" stroke="none"/>
+  <path d="M92.163759117105,62.20425750928681 A66,66 0 0 1 125.70377952281122,32.634751931375426 L136.0112669979822,58.66849353624646 A38,38 0 0 0 116.70034615833319,75.69336038413483 Z" fill="#d99a16" stroke="none"/>
+  <path d="M125.70377952281122,32.634751931375426 A66,66 0 0 1 149.99999999999994,28 L149.99999999999997,56 A38,38 0 0 0 136.0112669979822,58.66849353624646 Z" fill="#f09a78" stroke="none"/>
   <text x="150" y="91" class="note" text-anchor="middle">总量</text>
   <text x="150" y="109" class="big-value" text-anchor="middle">100</text>
   <text x="247" y="65" class="note" text-anchor="start">甲 38%</text>

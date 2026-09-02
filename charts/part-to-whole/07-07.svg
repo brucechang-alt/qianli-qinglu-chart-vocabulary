@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-弧形构成图示例 d-弧形构成图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -9,9 +9,9 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
 .red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
   <title id="t-弧形构成图示例">弧形构成图示例</title>
   <desc id="d-弧形构成图示例">固定弧长代表100%，已完成部分为68%。</desc>
-  <path d="M124.8456710674493,175.1543289325507 A78,78 0 1 1 235.15432893255073,175.1543289325507 L219.59797974644667,159.59797974644664 A56,56 0 1 0 140.40202025355336,159.59797974644667 Z" fill="#e2cfa1" stroke="none"/>
-  <path d="M124.8456710674493,175.1543289325507 A78,78 0 1 1 238.50866343117588,68.41767450475518 L222.00621989930573,82.96653554187552 A56,56 0 1 0 140.40202025355336,159.59797974644667 Z" fill="#006f91" stroke="none"/>
-  <circle cx="230.2574416652408" cy="75.69210502331535" r="6" fill="#c44530"/>
+  <path d="M124.8456710674493,175.1543289325507 A78,78 0 1 1 235.15432893255073,175.1543289325507 L219.59797974644667,159.59797974644664 A56,56 0 1 0 140.40202025355336,159.59797974644667 Z" fill="#ead49a" stroke="none"/>
+  <path d="M124.8456710674493,175.1543289325507 A78,78 0 1 1 238.50866343117588,68.41767450475518 L222.00621989930573,82.96653554187552 A56,56 0 1 0 140.40202025355336,159.59797974644667 Z" fill="#007ea7" stroke="none"/>
+  <circle cx="230.2574416652408" cy="75.69210502331535" r="6" fill="#e14b32"/>
   <text x="180" y="121" class="big-value" text-anchor="middle">68%</text>
   <text x="180" y="145" class="note" text-anchor="middle">已完成</text>
 </svg>
