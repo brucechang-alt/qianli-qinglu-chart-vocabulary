@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-弦图示例 d-弦图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -9,13 +9,13 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
 .red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
   <title id="t-弦图示例">弦图示例</title>
   <desc id="d-弦图示例">少量群体之间的双向联系以弦宽表现。</desc>
-  <path d="M180,26 A69,69 0 1 1 180,26 L180,39 A56,56 0 1 0 180,39 Z" fill="#e2cfa1" stroke="none"/>
-  <path d="M180,26 A69,69 0 0 1 247.62459387104568,81.29181617514078 L234.88372835910954,83.87451747547658 A56,56 0 0 0 180,39 Z" fill="#006f91" stroke="none"/>
-  <path d="M248.91376796725268,91.55143732032319 A69,69 0 0 1 222.89108781067586,149.04955676429637 L214.8101582231572,138.86630693913906 A56,56 0 0 0 235.9300145821181,92.20116652084201 Z" fill="#e48f75" stroke="none"/>
-  <path d="M214.33240230452915,154.85220256598717 A69,69 0 0 1 139.39342290938114,150.7862518635517 L147.04393743370065,140.27579861389705 A56,56 0 0 0 207.86397868193671,143.57570063326494 Z" fill="#2f8456" stroke="none"/>
-  <path d="M131.51279770262477,144.09166134256827 A69,69 0 0 1 180,26 L180,39 A56,56 0 0 0 140.648067700681,134.8425077562873 Z" fill="#b97a12" stroke="none"/>
-  <path d="M180,39 C260,70 260,120 180,151 C215,116 215,74 180,39 Z" fill="#55b9c1" stroke="none" opacity="0.45"/>
-  <path d="M124,79 C165,115 207,118 241,75 C211,96 166,91 124,79 Z" fill="#e48f75" stroke="none" opacity="0.5"/>
+  <path d="M180,26 A69,69 0 1 1 180,26 L180,39 A56,56 0 1 0 180,39 Z" fill="#ead49a" stroke="none"/>
+  <path d="M180,26 A69,69 0 0 1 247.62459387104568,81.29181617514078 L234.88372835910954,83.87451747547658 A56,56 0 0 0 180,39 Z" fill="#007ea7" stroke="none"/>
+  <path d="M248.91376796725268,91.55143732032319 A69,69 0 0 1 222.89108781067586,149.04955676429637 L214.8101582231572,138.86630693913906 A56,56 0 0 0 235.9300145821181,92.20116652084201 Z" fill="#f09a78" stroke="none"/>
+  <path d="M214.33240230452915,154.85220256598717 A69,69 0 0 1 139.39342290938114,150.7862518635517 L147.04393743370065,140.27579861389705 A56,56 0 0 0 207.86397868193671,143.57570063326494 Z" fill="#259b62" stroke="none"/>
+  <path d="M131.51279770262477,144.09166134256827 A69,69 0 0 1 180,26 L180,39 A56,56 0 0 0 140.648067700681,134.8425077562873 Z" fill="#d99a16" stroke="none"/>
+  <path d="M180,39 C260,70 260,120 180,151 C215,116 215,74 180,39 Z" fill="#4ec6d0" stroke="none" opacity="0.45"/>
+  <path d="M124,79 C165,115 207,118 241,75 C211,96 166,91 124,79 Z" fill="#f09a78" stroke="none" opacity="0.5"/>
   <text x="180" y="18" class="label" text-anchor="middle">甲</text>
   <text x="261" y="100" class="label" text-anchor="start">乙</text>
   <text x="180" y="181" class="label" text-anchor="middle">丙</text>
