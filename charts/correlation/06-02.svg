@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-折线柱形组合图示例 d-折线柱形组合图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -13,31 +13,31 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
   <line x1="38" y1="20" x2="38" y2="158" class="axis"/>
   <text x="189" y="184" class="axis-title" text-anchor="middle" data-axis="x">月份</text>
   <text x="12" y="90" class="axis-title" text-anchor="middle" transform="rotate(-90 12 90)" data-axis="y">总量／比率</text>
-  <rect x="44" y="114.25" width="13" height="43.75" fill="#c7e9d8"/>
-  <rect x="69" y="109" width="13" height="49" fill="#c7e9d8"/>
-  <rect x="94" y="103.75" width="13" height="54.25" fill="#c7e9d8"/>
-  <rect x="119" y="105.5" width="13" height="52.5" fill="#c7e9d8"/>
-  <rect x="144" y="98.5" width="13" height="59.5" fill="#c7e9d8"/>
-  <rect x="169" y="91.5" width="13" height="66.5" fill="#c7e9d8"/>
-  <rect x="194" y="93.25" width="13" height="64.75" fill="#c7e9d8"/>
-  <rect x="219" y="82.75" width="13" height="75.25" fill="#c7e9d8"/>
-  <rect x="244" y="77.5" width="13" height="80.5" fill="#c7e9d8"/>
-  <rect x="269" y="74" width="13" height="84" fill="#c7e9d8"/>
-  <rect x="294" y="67" width="13" height="91" fill="#c7e9d8"/>
-  <rect x="319" y="61.75" width="13" height="96.25" fill="#c7e9d8"/>
-  <polyline points="50,97.2 75,92.25 100,93.9 125,82.35000000000001 150,77.4 175,80.7 200,67.5 225,60.900000000000006 250,65.85000000000001 275,52.650000000000006 300,46.05000000000001 325,37.80000000000001" fill="none" stroke="#c44530" stroke-width="2.5"/>
-  <circle cx="50" cy="97.2" r="2.8" fill="#f3e6c6" stroke="#c44530" stroke-width="2"/>
-  <circle cx="75" cy="92.25" r="2.8" fill="#f3e6c6" stroke="#c44530" stroke-width="2"/>
-  <circle cx="100" cy="93.9" r="2.8" fill="#f3e6c6" stroke="#c44530" stroke-width="2"/>
-  <circle cx="125" cy="82.35000000000001" r="2.8" fill="#f3e6c6" stroke="#c44530" stroke-width="2"/>
-  <circle cx="150" cy="77.4" r="2.8" fill="#f3e6c6" stroke="#c44530" stroke-width="2"/>
-  <circle cx="175" cy="80.7" r="2.8" fill="#f3e6c6" stroke="#c44530" stroke-width="2"/>
-  <circle cx="200" cy="67.5" r="2.8" fill="#f3e6c6" stroke="#c44530" stroke-width="2"/>
-  <circle cx="225" cy="60.900000000000006" r="2.8" fill="#f3e6c6" stroke="#c44530" stroke-width="2"/>
-  <circle cx="250" cy="65.85000000000001" r="2.8" fill="#f3e6c6" stroke="#c44530" stroke-width="2"/>
-  <circle cx="275" cy="52.650000000000006" r="2.8" fill="#f3e6c6" stroke="#c44530" stroke-width="2"/>
-  <circle cx="300" cy="46.05000000000001" r="2.8" fill="#f3e6c6" stroke="#c44530" stroke-width="2"/>
-  <circle cx="325" cy="37.80000000000001" r="2.8" fill="#f3e6c6" stroke="#c44530" stroke-width="2"/>
+  <rect x="44" y="114.25" width="13" height="43.75" fill="#d5f2e6"/>
+  <rect x="69" y="109" width="13" height="49" fill="#d5f2e6"/>
+  <rect x="94" y="103.75" width="13" height="54.25" fill="#d5f2e6"/>
+  <rect x="119" y="105.5" width="13" height="52.5" fill="#d5f2e6"/>
+  <rect x="144" y="98.5" width="13" height="59.5" fill="#d5f2e6"/>
+  <rect x="169" y="91.5" width="13" height="66.5" fill="#d5f2e6"/>
+  <rect x="194" y="93.25" width="13" height="64.75" fill="#d5f2e6"/>
+  <rect x="219" y="82.75" width="13" height="75.25" fill="#d5f2e6"/>
+  <rect x="244" y="77.5" width="13" height="80.5" fill="#d5f2e6"/>
+  <rect x="269" y="74" width="13" height="84" fill="#d5f2e6"/>
+  <rect x="294" y="67" width="13" height="91" fill="#d5f2e6"/>
+  <rect x="319" y="61.75" width="13" height="96.25" fill="#d5f2e6"/>
+  <polyline points="50,97.2 75,92.25 100,93.9 125,82.35000000000001 150,77.4 175,80.7 200,67.5 225,60.900000000000006 250,65.85000000000001 275,52.650000000000006 300,46.05000000000001 325,37.80000000000001" fill="none" stroke="#e14b32" stroke-width="2.5"/>
+  <circle cx="50" cy="97.2" r="2.8" fill="#faf2d9" stroke="#e14b32" stroke-width="2"/>
+  <circle cx="75" cy="92.25" r="2.8" fill="#faf2d9" stroke="#e14b32" stroke-width="2"/>
+  <circle cx="100" cy="93.9" r="2.8" fill="#faf2d9" stroke="#e14b32" stroke-width="2"/>
+  <circle cx="125" cy="82.35000000000001" r="2.8" fill="#faf2d9" stroke="#e14b32" stroke-width="2"/>
+  <circle cx="150" cy="77.4" r="2.8" fill="#faf2d9" stroke="#e14b32" stroke-width="2"/>
+  <circle cx="175" cy="80.7" r="2.8" fill="#faf2d9" stroke="#e14b32" stroke-width="2"/>
+  <circle cx="200" cy="67.5" r="2.8" fill="#faf2d9" stroke="#e14b32" stroke-width="2"/>
+  <circle cx="225" cy="60.900000000000006" r="2.8" fill="#faf2d9" stroke="#e14b32" stroke-width="2"/>
+  <circle cx="250" cy="65.85000000000001" r="2.8" fill="#faf2d9" stroke="#e14b32" stroke-width="2"/>
+  <circle cx="275" cy="52.650000000000006" r="2.8" fill="#faf2d9" stroke="#e14b32" stroke-width="2"/>
+  <circle cx="300" cy="46.05000000000001" r="2.8" fill="#faf2d9" stroke="#e14b32" stroke-width="2"/>
+  <circle cx="325" cy="37.80000000000001" r="2.8" fill="#faf2d9" stroke="#e14b32" stroke-width="2"/>
   <text x="276" y="31" class="note" text-anchor="start">比率</text>
   <line x1="245" y1="27" x2="268" y2="27" class="red"/>
 </svg>

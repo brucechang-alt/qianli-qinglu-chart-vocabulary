@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-连接散点图示例 d-连接散点图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -13,22 +13,22 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
   <line x1="38" y1="20" x2="38" y2="158" class="axis"/>
   <text x="189" y="184" class="axis-title" text-anchor="middle" data-axis="x">变量X</text>
   <text x="12" y="90" class="axis-title" text-anchor="middle" transform="rotate(-90 12 90)" data-axis="y">变量Y</text>
-  <polyline points="58,136 80,127 106,131 132,113 164,105 192,91 222,82 253,61 289,48 322,34" fill="none" stroke="#006f91" stroke-width="2.5" marker-end="url(#arrow)"/>
-  <circle cx="58" cy="136" r="5" fill="#f3e6c6" stroke="#006f91" stroke-width="2"/>
-  <circle cx="80" cy="127" r="3" fill="#f3e6c6" stroke="#006f91" stroke-width="2"/>
-  <circle cx="106" cy="131" r="3" fill="#f3e6c6" stroke="#006f91" stroke-width="2"/>
-  <circle cx="132" cy="113" r="3" fill="#f3e6c6" stroke="#006f91" stroke-width="2"/>
-  <circle cx="164" cy="105" r="3" fill="#f3e6c6" stroke="#006f91" stroke-width="2"/>
-  <circle cx="192" cy="91" r="3" fill="#f3e6c6" stroke="#006f91" stroke-width="2"/>
-  <circle cx="222" cy="82" r="3" fill="#f3e6c6" stroke="#006f91" stroke-width="2"/>
-  <circle cx="253" cy="61" r="3" fill="#f3e6c6" stroke="#006f91" stroke-width="2"/>
-  <circle cx="289" cy="48" r="3" fill="#f3e6c6" stroke="#006f91" stroke-width="2"/>
-  <circle cx="322" cy="34" r="5" fill="#c44530" stroke="#c44530" stroke-width="2"/>
+  <polyline points="58,136 80,127 106,131 132,113 164,105 192,91 222,82 253,61 289,48 322,34" fill="none" stroke="#007ea7" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <circle cx="58" cy="136" r="5" fill="#faf2d9" stroke="#007ea7" stroke-width="2"/>
+  <circle cx="80" cy="127" r="3" fill="#faf2d9" stroke="#007ea7" stroke-width="2"/>
+  <circle cx="106" cy="131" r="3" fill="#faf2d9" stroke="#007ea7" stroke-width="2"/>
+  <circle cx="132" cy="113" r="3" fill="#faf2d9" stroke="#007ea7" stroke-width="2"/>
+  <circle cx="164" cy="105" r="3" fill="#faf2d9" stroke="#007ea7" stroke-width="2"/>
+  <circle cx="192" cy="91" r="3" fill="#faf2d9" stroke="#007ea7" stroke-width="2"/>
+  <circle cx="222" cy="82" r="3" fill="#faf2d9" stroke="#007ea7" stroke-width="2"/>
+  <circle cx="253" cy="61" r="3" fill="#faf2d9" stroke="#007ea7" stroke-width="2"/>
+  <circle cx="289" cy="48" r="3" fill="#faf2d9" stroke="#007ea7" stroke-width="2"/>
+  <circle cx="322" cy="34" r="5" fill="#e14b32" stroke="#e14b32" stroke-width="2"/>
   <text x="52" y="151" class="note" text-anchor="start">起点</text>
   <text x="326" y="31" class="note" text-anchor="end">终点</text>
   <defs>
     <marker id="arrow" markerwidth="8" markerheight="8" refx="6" refy="3" orient="auto">
-      <path d="M0,0 L0,6 L7,3 z" fill="#006f91" stroke="none"/>
+      <path d="M0,0 L0,6 L7,3 z" fill="#007ea7" stroke="none"/>
     </marker>
   </defs>
 </svg>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-气泡图示例 d-气泡图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -13,13 +13,13 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
   <line x1="38" y1="20" x2="38" y2="158" class="axis"/>
   <text x="189" y="184" class="axis-title" text-anchor="middle" data-axis="x">变量X</text>
   <text x="12" y="90" class="axis-title" text-anchor="middle" transform="rotate(-90 12 90)" data-axis="y">变量Y</text>
-  <circle cx="66" cy="133" r="7" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
-  <circle cx="91" cy="120" r="11" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
-  <circle cx="126" cy="128" r="6" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
-  <circle cx="153" cy="102" r="14" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
-  <circle cx="186" cy="91" r="9" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
-  <circle cx="215" cy="76" r="17" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
-  <circle cx="252" cy="69" r="12" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
-  <circle cx="294" cy="42" r="20" fill="#e48f75" stroke="#c44530" stroke-width="2"/>
+  <circle cx="66" cy="133" r="7" fill="#d5f2e6" stroke="#007ea7" stroke-width="2"/>
+  <circle cx="91" cy="120" r="11" fill="#d5f2e6" stroke="#007ea7" stroke-width="2"/>
+  <circle cx="126" cy="128" r="6" fill="#d5f2e6" stroke="#007ea7" stroke-width="2"/>
+  <circle cx="153" cy="102" r="14" fill="#d5f2e6" stroke="#007ea7" stroke-width="2"/>
+  <circle cx="186" cy="91" r="9" fill="#d5f2e6" stroke="#007ea7" stroke-width="2"/>
+  <circle cx="215" cy="76" r="17" fill="#d5f2e6" stroke="#007ea7" stroke-width="2"/>
+  <circle cx="252" cy="69" r="12" fill="#d5f2e6" stroke="#007ea7" stroke-width="2"/>
+  <circle cx="294" cy="42" r="20" fill="#f09a78" stroke="#e14b32" stroke-width="2"/>
   <text x="290" y="70" class="note" text-anchor="middle">规模最大</text>
 </svg>
