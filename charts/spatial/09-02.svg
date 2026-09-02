@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-比例符号地图示例 d-比例符号地图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -9,19 +9,19 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
 .red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
   <title id="t-比例符号地图示例">比例符号地图示例</title>
   <desc id="d-比例符号地图示例">抽象空间底图上的圆面积表示绝对数量。</desc>
-  <path d="M52,34 L120,28 L132,70 L91,91 L48,72 Z" fill="#e2cfa1" stroke="#c4a971" stroke-width="1.2"/>
-  <path d="M120,28 L196,24 L206,71 L132,70 Z" fill="#e2cfa1" stroke="#c4a971" stroke-width="1.2"/>
-  <path d="M196,24 L283,34 L303,74 L250,90 L206,71 Z" fill="#e2cfa1" stroke="#c4a971" stroke-width="1.2"/>
-  <path d="M48,72 L91,91 L112,142 L58,153 L38,112 Z" fill="#e2cfa1" stroke="#c4a971" stroke-width="1.2"/>
-  <path d="M91,91 L164,78 L193,126 L158,158 L112,142 Z" fill="#e2cfa1" stroke="#c4a971" stroke-width="1.2"/>
-  <path d="M164,78 L250,90 L235,144 L193,126 Z" fill="#e2cfa1" stroke="#c4a971" stroke-width="1.2"/>
-  <path d="M250,90 L303,74 L336,111 L305,154 L235,144 Z" fill="#e2cfa1" stroke="#c4a971" stroke-width="1.2"/>
-  <path d="M132,70 L206,71 L164,78 Z" fill="#e2cfa1" stroke="#c4a971" stroke-width="1.2"/>
-  <circle cx="95" cy="72" r="10" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
-  <circle cx="151" cy="56" r="17" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
-  <circle cx="221" cy="86" r="8" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
-  <circle cx="270" cy="54" r="22" fill="#e48f75" stroke="#c44530" stroke-width="2"/>
-  <circle cx="129" cy="128" r="13" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
-  <circle cx="236" cy="132" r="16" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
+  <path d="M52,34 L120,28 L132,70 L91,91 L48,72 Z" fill="#ead49a" stroke="#cdbd8f" stroke-width="1.2"/>
+  <path d="M120,28 L196,24 L206,71 L132,70 Z" fill="#ead49a" stroke="#cdbd8f" stroke-width="1.2"/>
+  <path d="M196,24 L283,34 L303,74 L250,90 L206,71 Z" fill="#ead49a" stroke="#cdbd8f" stroke-width="1.2"/>
+  <path d="M48,72 L91,91 L112,142 L58,153 L38,112 Z" fill="#ead49a" stroke="#cdbd8f" stroke-width="1.2"/>
+  <path d="M91,91 L164,78 L193,126 L158,158 L112,142 Z" fill="#ead49a" stroke="#cdbd8f" stroke-width="1.2"/>
+  <path d="M164,78 L250,90 L235,144 L193,126 Z" fill="#ead49a" stroke="#cdbd8f" stroke-width="1.2"/>
+  <path d="M250,90 L303,74 L336,111 L305,154 L235,144 Z" fill="#ead49a" stroke="#cdbd8f" stroke-width="1.2"/>
+  <path d="M132,70 L206,71 L164,78 Z" fill="#ead49a" stroke="#cdbd8f" stroke-width="1.2"/>
+  <circle cx="95" cy="72" r="10" fill="#d5f2e6" stroke="#007ea7" stroke-width="2"/>
+  <circle cx="151" cy="56" r="17" fill="#d5f2e6" stroke="#007ea7" stroke-width="2"/>
+  <circle cx="221" cy="86" r="8" fill="#d5f2e6" stroke="#007ea7" stroke-width="2"/>
+  <circle cx="270" cy="54" r="22" fill="#f09a78" stroke="#e14b32" stroke-width="2"/>
+  <circle cx="129" cy="128" r="13" fill="#d5f2e6" stroke="#007ea7" stroke-width="2"/>
+  <circle cx="236" cy="132" r="16" fill="#d5f2e6" stroke="#007ea7" stroke-width="2"/>
   <text x="180" y="181" class="axis-title" text-anchor="middle">圆面积对应数量</text>
 </svg>
