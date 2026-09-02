@@ -1,27 +1,34 @@
 {
   "$schema": "https://design-tokens.github.io/community-group/format/",
   "name": "Qianli Qinglu",
-  "version": "1.0.0",
+  "version": "2.0.0",
+  "edition": "色彩提纯版",
+  "note": "High-chroma contemporary screen translation. The Public Domain reference artwork is preserved unaltered; these values are not claimed as scientific pigment measurements.",
   "colors": {
-    "paper": {"value": "#F3E6C6", "role": "page and open-fill background"},
-    "paperDeep": {"value": "#E2CFA1", "role": "supporting fill"},
-    "ink": {"value": "#28231B", "role": "primary text, axes and structural anchors"},
-    "inkSecondary": {"value": "#594A35", "role": "secondary text"},
-    "muted": {"value": "#736249", "role": "ticks and notes"},
-    "rule": {"value": "#C4A971", "role": "quiet grid and divider lines"},
-    "stoneBlue": {"value": "#006F91", "role": "primary series and depth"},
-    "stoneBlueLight": {"value": "#55B9C1", "role": "supporting series"},
-    "stoneBluePale": {"value": "#C7E9D8", "role": "open fill"},
-    "stoneGreen": {"value": "#2F8456", "role": "primary subject and natural hierarchy"},
-    "gold": {"value": "#B97A12", "role": "secondary emphasis and comparison layer"},
-    "cinnabar": {"value": "#C44530", "role": "exception, reversal and risk marker"},
-    "cinnabarLight": {"value": "#E48F75", "role": "open alert fill"},
-    "purple": {"value": "#704C99", "role": "fifth categorical root when identity requires it"}
+    "paper": {"value": "#FAF2D9", "role": "page and open-fill background"},
+    "paperDeep": {"value": "#EAD49A", "role": "supporting fill"},
+    "ink": {"value": "#1C211D", "role": "primary text, axes and structural anchors"},
+    "inkSecondary": {"value": "#4B4A3D", "role": "secondary text"},
+    "muted": {"value": "#625C4D", "role": "ticks and notes"},
+    "rule": {"value": "#CDBD8F", "role": "quiet grid and divider lines"},
+    "stoneBlue": {"value": "#007EA7", "role": "primary-series data marks and depth"},
+    "stoneBlueText": {"value": "#006184", "role": "small blue text on paper"},
+    "stoneBlueLight": {"value": "#4EC6D0", "role": "supporting series"},
+    "stoneBluePale": {"value": "#D5F2E6", "role": "open fill"},
+    "stoneGreen": {"value": "#259B62", "role": "primary-subject data marks and natural hierarchy"},
+    "stoneGreenText": {"value": "#26744B", "role": "small green text on paper"},
+    "gold": {"value": "#D99A16", "role": "secondary emphasis and comparison marks"},
+    "goldText": {"value": "#8B5B00", "role": "small gold-related text on paper"},
+    "cinnabar": {"value": "#E14B32", "role": "exception, reversal and risk marks"},
+    "cinnabarText": {"value": "#B93D2B", "role": "small vermilion text on paper"},
+    "cinnabarLight": {"value": "#F09A78", "role": "open alert fill"},
+    "purple": {"value": "#8351B2", "role": "fifth categorical root when identity requires it"},
+    "purpleText": {"value": "#65417F", "role": "small purple text on paper"}
   },
   "policies": {
     "simple": "Prefer one non-neutral root plus neutrals.",
     "binary": "Use at most two non-neutral roots plus neutrals.",
     "categorical": "Use no more than five roots; group long tails into Other.",
-    "accessibility": "Never encode a distinction by color alone; add labels, position, line style, marker or ordering."
+    "accessibility": "Never encode a distinction by color alone; add labels, position, line style, marker or ordering. Use vivid roots for marks and their darker tonal partners for small text."
   }
 }
