@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-箱线图示例 d-箱线图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -15,20 +15,20 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
   <line x1="68" y1="55" x2="296" y2="55" class="stem"/>
   <line x1="68" y1="47" x2="68" y2="63" class="stem"/>
   <line x1="296" y1="47" x2="296" y2="63" class="stem"/>
-  <rect x="118" y="41" width="116" height="28" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
+  <rect x="118" y="41" width="116" height="28" fill="#d5f2e6" stroke="#007ea7" stroke-width="2"/>
   <line x1="166" y1="41" x2="166" y2="69" class="zero"/>
   <text x="42" y="59" class="label" text-anchor="end">甲</text>
   <line x1="78" y1="98" x2="291" y2="98" class="stem"/>
   <line x1="78" y1="90" x2="78" y2="106" class="stem"/>
   <line x1="291" y1="90" x2="291" y2="106" class="stem"/>
-  <rect x="126" y="84" width="115" height="28" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
+  <rect x="126" y="84" width="115" height="28" fill="#d5f2e6" stroke="#007ea7" stroke-width="2"/>
   <line x1="182" y1="84" x2="182" y2="112" class="zero"/>
   <text x="42" y="102" class="label" text-anchor="end">乙</text>
   <line x1="88" y1="141" x2="286" y2="141" class="stem"/>
   <line x1="88" y1="133" x2="88" y2="149" class="stem"/>
   <line x1="286" y1="133" x2="286" y2="149" class="stem"/>
-  <rect x="134" y="127" width="114" height="28" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
+  <rect x="134" y="127" width="114" height="28" fill="#d5f2e6" stroke="#007ea7" stroke-width="2"/>
   <line x1="198" y1="127" x2="198" y2="155" class="zero"/>
   <text x="42" y="145" class="label" text-anchor="end">丙</text>
-  <circle cx="320" cy="141" r="4" fill="#f3e6c6" stroke="#c44530" stroke-width="2"/>
+  <circle cx="320" cy="141" r="4" fill="#faf2d9" stroke="#e14b32" stroke-width="2"/>
 </svg>

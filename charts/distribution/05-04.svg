@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-人口金字塔示例 d-人口金字塔示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -10,23 +10,23 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
   <title id="t-人口金字塔示例">人口金字塔示例</title>
   <desc id="d-人口金字塔示例">两个群体在相同年龄层上左右对称。</desc>
   <line x1="180" y1="18" x2="180" y2="168" class="zero"/>
-  <rect x="141.5" y="25" width="38.5" height="16" fill="#e48f75"/>
-  <rect x="180" y="25" width="45.5" height="16" fill="#006f91"/>
+  <rect x="141.5" y="25" width="38.5" height="16" fill="#f09a78"/>
+  <rect x="180" y="25" width="45.5" height="16" fill="#007ea7"/>
   <text x="174" y="37" class="value" text-anchor="end">70+</text>
-  <rect x="118.75" y="47" width="61.25" height="16" fill="#e48f75"/>
-  <rect x="180" y="47" width="70" height="16" fill="#006f91"/>
+  <rect x="118.75" y="47" width="61.25" height="16" fill="#f09a78"/>
+  <rect x="180" y="47" width="70" height="16" fill="#007ea7"/>
   <text x="174" y="59" class="value" text-anchor="end">60</text>
-  <rect x="96" y="69" width="84" height="16" fill="#e48f75"/>
-  <rect x="180" y="69" width="89.25" height="16" fill="#006f91"/>
+  <rect x="96" y="69" width="84" height="16" fill="#f09a78"/>
+  <rect x="180" y="69" width="89.25" height="16" fill="#007ea7"/>
   <text x="174" y="81" class="value" text-anchor="end">50</text>
-  <rect x="71.5" y="91" width="108.5" height="16" fill="#e48f75"/>
-  <rect x="180" y="91" width="101.5" height="16" fill="#006f91"/>
+  <rect x="71.5" y="91" width="108.5" height="16" fill="#f09a78"/>
+  <rect x="180" y="91" width="101.5" height="16" fill="#007ea7"/>
   <text x="174" y="103" class="value" text-anchor="end">40</text>
-  <rect x="83.75" y="113" width="96.25" height="16" fill="#e48f75"/>
-  <rect x="180" y="113" width="85.75" height="16" fill="#006f91"/>
+  <rect x="83.75" y="113" width="96.25" height="16" fill="#f09a78"/>
+  <rect x="180" y="113" width="85.75" height="16" fill="#007ea7"/>
   <text x="174" y="125" class="value" text-anchor="end">30</text>
-  <rect x="111.75" y="135" width="68.25" height="16" fill="#e48f75"/>
-  <rect x="180" y="135" width="57.75" height="16" fill="#006f91"/>
+  <rect x="111.75" y="135" width="68.25" height="16" fill="#f09a78"/>
+  <rect x="180" y="135" width="57.75" height="16" fill="#007ea7"/>
   <text x="174" y="147" class="value" text-anchor="end">20</text>
   <text x="92" y="181" class="axis-title" text-anchor="middle">群体甲</text>
   <text x="268" y="181" class="axis-title" text-anchor="middle">群体乙</text>

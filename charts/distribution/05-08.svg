@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-累积分布曲线示例 d-累积分布曲线示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -13,9 +13,9 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
   <line x1="38" y1="20" x2="38" y2="158" class="axis"/>
   <text x="189" y="184" class="axis-title" text-anchor="middle" data-axis="x">观察值</text>
   <text x="12" y="90" class="axis-title" text-anchor="middle" transform="rotate(-90 12 90)" data-axis="y">累计占比</text>
-  <polyline points="88.4,154 110.60000000000001,148.75 121.7,143.5 129.10000000000002,138.25 136.5,133 140.2,127.75 143.9,122.5 151.3,117.25 158.7,112 162.4,106.75 166.10000000000002,101.5 169.8,96.25 173.5,91 177.20000000000002,85.75 184.6,80.5 188.3,75.25 195.70000000000002,70 203.1,64.75 214.20000000000002,59.5 225.3,54.25 240.10000000000002,49 258.6,43.75 280.8,38.5 310.40000000000003,33.25" fill="none" stroke="#006f91" stroke-width="2.5"/>
+  <polyline points="88.4,154 110.60000000000001,148.75 121.7,143.5 129.10000000000002,138.25 136.5,133 140.2,127.75 143.9,122.5 151.3,117.25 158.7,112 162.4,106.75 166.10000000000002,101.5 169.8,96.25 173.5,91 177.20000000000002,85.75 184.6,80.5 188.3,75.25 195.70000000000002,70 203.1,64.75 214.20000000000002,59.5 225.3,54.25 240.10000000000002,49 258.6,43.75 280.8,38.5 310.40000000000003,33.25" fill="none" stroke="#007ea7" stroke-width="2.5"/>
   <line x1="190" y1="40" x2="190" y2="158" class="reference"/>
   <line x1="38" y1="96" x2="190" y2="96" class="reference"/>
-  <circle cx="190" cy="96" r="4" fill="#c44530"/>
+  <circle cx="190" cy="96" r="4" fill="#e14b32"/>
   <text x="196" y="89" class="note" text-anchor="start">约50%</text>
 </svg>

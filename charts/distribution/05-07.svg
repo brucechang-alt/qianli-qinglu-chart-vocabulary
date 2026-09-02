@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-条码图示例 d-条码图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -10,30 +10,30 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
   <title id="t-条码图示例">条码图示例</title>
   <desc id="d-条码图示例">每条竖线对应一个观察值，密集处形成深色。</desc>
   <line x1="40" y1="120" x2="340" y2="120" class="axis"/>
-  <line x1="87.6" y1="48" x2="87.6" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="110.39999999999999" y1="53" x2="110.39999999999999" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="121.8" y1="58" x2="121.8" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="129.39999999999998" y1="48" x2="129.39999999999998" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="137" y1="53" x2="137" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="140.8" y1="58" x2="140.8" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="144.6" y1="48" x2="144.6" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="152.2" y1="53" x2="152.2" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="159.8" y1="58" x2="159.8" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="163.6" y1="48" x2="163.6" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="167.39999999999998" y1="53" x2="167.39999999999998" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="171.2" y1="58" x2="171.2" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="175" y1="48" x2="175" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="178.79999999999998" y1="53" x2="178.79999999999998" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="186.4" y1="58" x2="186.4" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="190.2" y1="48" x2="190.2" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="197.79999999999998" y1="53" x2="197.79999999999998" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="205.4" y1="58" x2="205.4" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="216.79999999999998" y1="48" x2="216.79999999999998" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="228.2" y1="53" x2="228.2" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="243.39999999999998" y1="58" x2="243.39999999999998" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="262.4" y1="48" x2="262.4" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="285.2" y1="53" x2="285.2" y2="120" class="" stroke="#006f91" stroke-width="2"/>
-  <line x1="315.59999999999997" y1="58" x2="315.59999999999997" y2="120" class="" stroke="#c44530" stroke-width="2"/>
+  <line x1="87.6" y1="48" x2="87.6" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="110.39999999999999" y1="53" x2="110.39999999999999" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="121.8" y1="58" x2="121.8" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="129.39999999999998" y1="48" x2="129.39999999999998" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="137" y1="53" x2="137" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="140.8" y1="58" x2="140.8" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="144.6" y1="48" x2="144.6" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="152.2" y1="53" x2="152.2" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="159.8" y1="58" x2="159.8" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="163.6" y1="48" x2="163.6" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="167.39999999999998" y1="53" x2="167.39999999999998" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="171.2" y1="58" x2="171.2" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="175" y1="48" x2="175" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="178.79999999999998" y1="53" x2="178.79999999999998" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="186.4" y1="58" x2="186.4" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="190.2" y1="48" x2="190.2" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="197.79999999999998" y1="53" x2="197.79999999999998" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="205.4" y1="58" x2="205.4" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="216.79999999999998" y1="48" x2="216.79999999999998" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="228.2" y1="53" x2="228.2" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="243.39999999999998" y1="58" x2="243.39999999999998" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="262.4" y1="48" x2="262.4" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="285.2" y1="53" x2="285.2" y2="120" class="" stroke="#007ea7" stroke-width="2"/>
+  <line x1="315.59999999999997" y1="58" x2="315.59999999999997" y2="120" class="" stroke="#e14b32" stroke-width="2"/>
   <text x="40" y="145" class="axis-title" text-anchor="start">低</text>
   <text x="340" y="145" class="axis-title" text-anchor="end">高</text>
 </svg>

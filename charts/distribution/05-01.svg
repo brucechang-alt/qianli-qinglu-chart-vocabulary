@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-直方图示例 d-直方图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -13,22 +13,22 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
   <line x1="38" y1="20" x2="38" y2="158" class="axis"/>
   <text x="189" y="184" class="axis-title" text-anchor="middle" data-axis="x">数值区间</text>
   <text x="12" y="90" class="axis-title" text-anchor="middle" transform="rotate(-90 12 90)" data-axis="y">频数</text>
-  <rect x="47" y="146.4" width="24" height="11.6" fill="#006f91"/>
+  <rect x="47" y="146.4" width="24" height="11.6" fill="#007ea7"/>
   <text x="59" y="176" class="tick" text-anchor="middle">0</text>
-  <rect x="73" y="134.8" width="24" height="23.2" fill="#006f91"/>
-  <rect x="99" y="117.4" width="24" height="40.6" fill="#006f91"/>
+  <rect x="73" y="134.8" width="24" height="23.2" fill="#007ea7"/>
+  <rect x="99" y="117.4" width="24" height="40.6" fill="#007ea7"/>
   <text x="111" y="176" class="tick" text-anchor="middle">20</text>
-  <rect x="125" y="94.2" width="24" height="63.8" fill="#006f91"/>
-  <rect x="151" y="65.2" width="24" height="92.8" fill="#006f91"/>
+  <rect x="125" y="94.2" width="24" height="63.8" fill="#007ea7"/>
+  <rect x="151" y="65.2" width="24" height="92.8" fill="#007ea7"/>
   <text x="163" y="176" class="tick" text-anchor="middle">40</text>
-  <rect x="177" y="42" width="24" height="116" fill="#c44530"/>
-  <rect x="203" y="53.60000000000001" width="24" height="104.39999999999999" fill="#006f91"/>
+  <rect x="177" y="42" width="24" height="116" fill="#e14b32"/>
+  <rect x="203" y="53.60000000000001" width="24" height="104.39999999999999" fill="#007ea7"/>
   <text x="215" y="176" class="tick" text-anchor="middle">60</text>
-  <rect x="229" y="82.60000000000001" width="24" height="75.39999999999999" fill="#006f91"/>
-  <rect x="255" y="111.6" width="24" height="46.4" fill="#006f91"/>
+  <rect x="229" y="82.60000000000001" width="24" height="75.39999999999999" fill="#007ea7"/>
+  <rect x="255" y="111.6" width="24" height="46.4" fill="#007ea7"/>
   <text x="267" y="176" class="tick" text-anchor="middle">80</text>
-  <rect x="281" y="129" width="24" height="29" fill="#006f91"/>
-  <rect x="307" y="146.4" width="24" height="11.6" fill="#006f91"/>
+  <rect x="281" y="129" width="24" height="29" fill="#007ea7"/>
+  <rect x="307" y="146.4" width="24" height="11.6" fill="#007ea7"/>
   <text x="319" y="176" class="tick" text-anchor="middle">100</text>
   <line x1="190" y1="34" x2="190" y2="158" class="reference"/>
   <text x="190" y="26" class="note" text-anchor="middle">中位数</text>

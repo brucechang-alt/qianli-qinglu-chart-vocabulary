@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-点带图示例 d-点带图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -12,30 +12,30 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
   <line x1="38" y1="158" x2="340" y2="158" class="axis"/>
   <line x1="38" y1="20" x2="38" y2="158" class="axis"/>
   <text x="189" y="184" class="axis-title" text-anchor="middle" data-axis="x">观察值</text>
-  <circle cx="89.6" cy="86.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="112.39999999999999" cy="95.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="123.8" cy="104.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="131.39999999999998" cy="113.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="139" cy="86.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="142.8" cy="95.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="146.6" cy="104.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="154.2" cy="113.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="161.8" cy="86.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="165.6" cy="95.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="169.39999999999998" cy="104.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="173.2" cy="113.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="177" cy="86.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="180.79999999999998" cy="95.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="188.4" cy="104.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="192.2" cy="113.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="199.79999999999998" cy="86.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="207.4" cy="95.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="218.79999999999998" cy="104.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="230.2" cy="113.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="245.39999999999998" cy="86.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="264.4" cy="95.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="287.2" cy="104.5" r="3.5" fill="#006f91" stroke="#006f91" stroke-width="1"/>
-  <circle cx="317.59999999999997" cy="113.5" r="5" fill="#f3e6c6" stroke="#c44530" stroke-width="2.5"/>
+  <circle cx="89.6" cy="86.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="112.39999999999999" cy="95.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="123.8" cy="104.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="131.39999999999998" cy="113.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="139" cy="86.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="142.8" cy="95.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="146.6" cy="104.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="154.2" cy="113.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="161.8" cy="86.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="165.6" cy="95.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="169.39999999999998" cy="104.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="173.2" cy="113.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="177" cy="86.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="180.79999999999998" cy="95.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="188.4" cy="104.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="192.2" cy="113.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="199.79999999999998" cy="86.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="207.4" cy="95.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="218.79999999999998" cy="104.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="230.2" cy="113.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="245.39999999999998" cy="86.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="264.4" cy="95.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="287.2" cy="104.5" r="3.5" fill="#007ea7" stroke="#007ea7" stroke-width="1"/>
+  <circle cx="317.59999999999997" cy="113.5" r="5" fill="#faf2d9" stroke="#e14b32" stroke-width="2.5"/>
   <line x1="175" y1="44" x2="175" y2="145" class="reference"/>
   <text x="175" y="35" class="note" text-anchor="middle">中位数</text>
 </svg>
