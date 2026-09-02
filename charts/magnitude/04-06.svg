@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-排序比例符号图示例 d-排序比例符号图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -9,22 +9,22 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
 .red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
   <title id="t-排序比例符号图示例">排序比例符号图示例</title>
   <desc id="d-排序比例符号图示例">圆面积随数值变化并按大小排序。</desc>
-  <circle cx="50" cy="96" r="20.40196069009055" fill="#e48f75" stroke="#c44530" stroke-width="2"/>
+  <circle cx="50" cy="96" r="20.40196069009055" fill="#f09a78" stroke="#e14b32" stroke-width="2"/>
   <text x="50" y="139" class="label" text-anchor="middle">北</text>
   <text x="50" y="101" class="value" text-anchor="middle">86</text>
-  <circle cx="106" cy="96" r="18.667619023324853" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
+  <circle cx="106" cy="96" r="18.667619023324853" fill="#d5f2e6" stroke="#007ea7" stroke-width="2"/>
   <text x="106" y="139" class="label" text-anchor="middle">南</text>
   <text x="106" y="101" class="value" text-anchor="middle">72</text>
-  <circle cx="162" cy="96" r="17.6" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
+  <circle cx="162" cy="96" r="17.6" fill="#d5f2e6" stroke="#007ea7" stroke-width="2"/>
   <text x="162" y="139" class="label" text-anchor="middle">东</text>
   <text x="162" y="101" class="value" text-anchor="middle">64</text>
-  <circle cx="218" cy="96" r="16.01624175641714" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
+  <circle cx="218" cy="96" r="16.01624175641714" fill="#d5f2e6" stroke="#007ea7" stroke-width="2"/>
   <text x="218" y="139" class="label" text-anchor="middle">西</text>
   <text x="218" y="101" class="value" text-anchor="middle">53</text>
-  <circle cx="274" cy="96" r="14.086873322352268" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
+  <circle cx="274" cy="96" r="14.086873322352268" fill="#d5f2e6" stroke="#007ea7" stroke-width="2"/>
   <text x="274" y="139" class="label" text-anchor="middle">中</text>
   <text x="274" y="101" class="value" text-anchor="middle">41</text>
-  <circle cx="330" cy="96" r="11.84736257569591" fill="#c7e9d8" stroke="#006f91" stroke-width="2"/>
+  <circle cx="330" cy="96" r="11.84736257569591" fill="#d5f2e6" stroke="#007ea7" stroke-width="2"/>
   <text x="330" y="139" class="label" text-anchor="middle">海</text>
   <text x="330" y="101" class="value" text-anchor="middle">29</text>
   <text x="180" y="176" class="axis-title" text-anchor="middle">圆面积对应数量</text>

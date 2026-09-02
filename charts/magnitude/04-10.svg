@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-平行坐标图示例 d-平行坐标图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -19,9 +19,9 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
   <text x="244" y="177" class="tick" text-anchor="middle">丁</text>
   <line x1="308" y1="30" x2="308" y2="155" class="axis"/>
   <text x="308" y="177" class="tick" text-anchor="middle">戊</text>
-  <polyline points="52,130 116,92.5 180,55 244,105 308,67.5" fill="none" stroke="#006f91" stroke-width="1.5" opacity="0.5"/>
-  <polyline points="52,80 116,117.5 180,92.5 244,55 308,98.75" fill="none" stroke="#006f91" stroke-width="1.5" opacity="0.5"/>
-  <polyline points="52,111.25 116,61.25 180,80 244,123.75 308,55" fill="none" stroke="#006f91" stroke-width="1.5" opacity="0.5"/>
-  <polyline points="52,55 116,86.25 180,117.5 244,73.75 308,92.5" fill="none" stroke="#c44530" stroke-width="3" opacity="1"/>
-  <polyline points="52,95 116,105 180,65 244,86.25 308,115" fill="none" stroke="#006f91" stroke-width="1.5" opacity="0.5"/>
+  <polyline points="52,130 116,92.5 180,55 244,105 308,67.5" fill="none" stroke="#007ea7" stroke-width="1.5" opacity="0.5"/>
+  <polyline points="52,80 116,117.5 180,92.5 244,55 308,98.75" fill="none" stroke="#007ea7" stroke-width="1.5" opacity="0.5"/>
+  <polyline points="52,111.25 116,61.25 180,80 244,123.75 308,55" fill="none" stroke="#007ea7" stroke-width="1.5" opacity="0.5"/>
+  <polyline points="52,55 116,86.25 180,117.5 244,73.75 308,92.5" fill="none" stroke="#e14b32" stroke-width="3" opacity="1"/>
+  <polyline points="52,95 116,105 180,65 244,86.25 308,115" fill="none" stroke="#007ea7" stroke-width="1.5" opacity="0.5"/>
 </svg>

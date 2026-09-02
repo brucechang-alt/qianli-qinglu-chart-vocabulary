@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-象形单位图示例 d-象形单位图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -10,34 +10,34 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
   <title id="t-象形单位图示例">象形单位图示例</title>
   <desc id="d-象形单位图示例">每个圆点代表10个单位，半点表示5个单位。</desc>
   <text x="52" y="43" class="label" text-anchor="end">甲</text>
-  <circle cx="70" cy="38" r="8" fill="#006f91"/>
-  <circle cx="98" cy="38" r="8" fill="#006f91"/>
-  <circle cx="126" cy="38" r="8" fill="#006f91"/>
-  <circle cx="154" cy="38" r="8" fill="#006f91"/>
-  <circle cx="182" cy="38" r="8" fill="#006f91"/>
-  <circle cx="210" cy="38" r="8" fill="#006f91"/>
-  <circle cx="238" cy="38" r="8" fill="#006f91"/>
-  <circle cx="266" cy="38" r="8" fill="#c44530"/>
+  <circle cx="70" cy="38" r="8" fill="#007ea7"/>
+  <circle cx="98" cy="38" r="8" fill="#007ea7"/>
+  <circle cx="126" cy="38" r="8" fill="#007ea7"/>
+  <circle cx="154" cy="38" r="8" fill="#007ea7"/>
+  <circle cx="182" cy="38" r="8" fill="#007ea7"/>
+  <circle cx="210" cy="38" r="8" fill="#007ea7"/>
+  <circle cx="238" cy="38" r="8" fill="#007ea7"/>
+  <circle cx="266" cy="38" r="8" fill="#e14b32"/>
   <text x="52" y="78" class="label" text-anchor="end">乙</text>
-  <circle cx="70" cy="73" r="8" fill="#006f91"/>
-  <circle cx="98" cy="73" r="8" fill="#006f91"/>
-  <circle cx="126" cy="73" r="8" fill="#006f91"/>
-  <circle cx="154" cy="73" r="8" fill="#006f91"/>
-  <circle cx="182" cy="73" r="8" fill="#006f91"/>
-  <circle cx="210" cy="73" r="8" fill="#006f91"/>
-  <circle cx="238" cy="73" r="8" fill="#006f91"/>
+  <circle cx="70" cy="73" r="8" fill="#007ea7"/>
+  <circle cx="98" cy="73" r="8" fill="#007ea7"/>
+  <circle cx="126" cy="73" r="8" fill="#007ea7"/>
+  <circle cx="154" cy="73" r="8" fill="#007ea7"/>
+  <circle cx="182" cy="73" r="8" fill="#007ea7"/>
+  <circle cx="210" cy="73" r="8" fill="#007ea7"/>
+  <circle cx="238" cy="73" r="8" fill="#007ea7"/>
   <text x="52" y="113" class="label" text-anchor="end">丙</text>
-  <circle cx="70" cy="108" r="8" fill="#006f91"/>
-  <circle cx="98" cy="108" r="8" fill="#006f91"/>
-  <circle cx="126" cy="108" r="8" fill="#006f91"/>
-  <circle cx="154" cy="108" r="8" fill="#006f91"/>
-  <circle cx="182" cy="108" r="8" fill="#006f91"/>
-  <circle cx="210" cy="108" r="8" fill="#006f91"/>
+  <circle cx="70" cy="108" r="8" fill="#007ea7"/>
+  <circle cx="98" cy="108" r="8" fill="#007ea7"/>
+  <circle cx="126" cy="108" r="8" fill="#007ea7"/>
+  <circle cx="154" cy="108" r="8" fill="#007ea7"/>
+  <circle cx="182" cy="108" r="8" fill="#007ea7"/>
+  <circle cx="210" cy="108" r="8" fill="#007ea7"/>
   <text x="52" y="148" class="label" text-anchor="end">丁</text>
-  <circle cx="70" cy="143" r="8" fill="#006f91"/>
-  <circle cx="98" cy="143" r="8" fill="#006f91"/>
-  <circle cx="126" cy="143" r="8" fill="#006f91"/>
-  <circle cx="154" cy="143" r="8" fill="#006f91"/>
-  <circle cx="182" cy="143" r="8" fill="#006f91"/>
+  <circle cx="70" cy="143" r="8" fill="#007ea7"/>
+  <circle cx="98" cy="143" r="8" fill="#007ea7"/>
+  <circle cx="126" cy="143" r="8" fill="#007ea7"/>
+  <circle cx="154" cy="143" r="8" fill="#007ea7"/>
+  <circle cx="182" cy="143" r="8" fill="#007ea7"/>
   <text x="180" y="181" class="axis-title" text-anchor="middle">● = 10个单位</text>
 </svg>
