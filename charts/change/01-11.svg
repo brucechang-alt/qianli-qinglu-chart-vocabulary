@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-周期圆形时间图示例 d-周期圆形时间图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -9,22 +9,22 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
 .red{stroke:var(--cinnabar);stroke-width:2.5}.blue{stroke:var(--stone-blue);stroke-width:2.5}.green{stroke:var(--stone-green);stroke-width:2.5}.gold{stroke:var(--ochre);stroke-width:2.5}</style>
   <title id="t-周期圆形时间图示例">周期圆形时间图示例</title>
   <desc id="d-周期圆形时间图示例">十二个月沿固定周期排列，突出重复节奏。</desc>
-  <circle cx="180" cy="95" r="58" fill="none" stroke="#c4a971" stroke-width="2"/>
-  <circle cx="180" cy="37" r="6" fill="#006f91"/>
+  <circle cx="180" cy="95" r="58" fill="none" stroke="#cdbd8f" stroke-width="2"/>
+  <circle cx="180" cy="37" r="6" fill="#007ea7"/>
   <text x="180" y="27" class="tick" text-anchor="middle">1月</text>
-  <circle cx="209" cy="44.770526580502555" r="3.5" fill="#006f91"/>
-  <circle cx="230.22947341949742" cy="66" r="3.5" fill="#006f91"/>
-  <circle cx="238" cy="95" r="6" fill="#006f91"/>
+  <circle cx="209" cy="44.770526580502555" r="3.5" fill="#007ea7"/>
+  <circle cx="230.22947341949742" cy="66" r="3.5" fill="#007ea7"/>
+  <circle cx="238" cy="95" r="6" fill="#007ea7"/>
   <text x="238" y="111" class="tick" text-anchor="middle">4月</text>
-  <circle cx="230.22947341949745" cy="123.99999999999999" r="3.5" fill="#006f91"/>
-  <circle cx="209" cy="145.22947341949745" r="3.5" fill="#006f91"/>
-  <circle cx="180" cy="153" r="6" fill="#006f91"/>
+  <circle cx="230.22947341949745" cy="123.99999999999999" r="3.5" fill="#007ea7"/>
+  <circle cx="209" cy="145.22947341949745" r="3.5" fill="#007ea7"/>
+  <circle cx="180" cy="153" r="6" fill="#007ea7"/>
   <text x="180" y="169" class="tick" text-anchor="middle">7月</text>
-  <circle cx="151" cy="145.22947341949745" r="3.5" fill="#006f91"/>
-  <circle cx="129.77052658050258" cy="124.00000000000001" r="3.5" fill="#c44530"/>
-  <circle cx="122" cy="95" r="6" fill="#006f91"/>
+  <circle cx="151" cy="145.22947341949745" r="3.5" fill="#007ea7"/>
+  <circle cx="129.77052658050258" cy="124.00000000000001" r="3.5" fill="#e14b32"/>
+  <circle cx="122" cy="95" r="6" fill="#007ea7"/>
   <text x="122" y="111" class="tick" text-anchor="middle">10月</text>
-  <circle cx="129.77052658050258" cy="66" r="3.5" fill="#006f91"/>
-  <circle cx="150.99999999999997" cy="44.77052658050257" r="3.5" fill="#006f91"/>
+  <circle cx="129.77052658050258" cy="66" r="3.5" fill="#007ea7"/>
+  <circle cx="150.99999999999997" cy="44.77052658050257" r="3.5" fill="#007ea7"/>
   <text x="180" y="100" class="note" text-anchor="middle">年度周期</text>
 </svg>

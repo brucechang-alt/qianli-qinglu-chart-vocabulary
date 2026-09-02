@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-扇形预测图示例 d-扇形预测图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -13,10 +13,10 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
   <line x1="38" y1="20" x2="38" y2="158" class="axis"/>
   <text x="189" y="184" class="axis-title" text-anchor="middle" data-axis="x">时间</text>
   <text x="12" y="90" class="axis-title" text-anchor="middle" transform="rotate(-90 12 90)" data-axis="y">预测值</text>
-  <path d="M44,132 L70,126 L96,118 L122,112 L148,100 L174,94" fill="none" stroke="#594a35" stroke-width="2.5"/>
-  <path d="M174,94 C208,70 250,44 338,28 L338,154 C260,135 210,116 174,94 Z" fill="#c7e9d8" stroke="none"/>
-  <path d="M174,94 C215,80 270,65 338,52 L338,132 C270,119 215,106 174,94 Z" fill="#55b9c1" stroke="none" opacity="0.65"/>
-  <path d="M174,94 C220,91 276,86 338,79 L338,108 C276,103 220,98 174,94 Z" fill="#006f91" stroke="none" opacity="0.55"/>
+  <path d="M44,132 L70,126 L96,118 L122,112 L148,100 L174,94" fill="none" stroke="#4b4a3d" stroke-width="2.5"/>
+  <path d="M174,94 C208,70 250,44 338,28 L338,154 C260,135 210,116 174,94 Z" fill="#d5f2e6" stroke="none"/>
+  <path d="M174,94 C215,80 270,65 338,52 L338,132 C270,119 215,106 174,94 Z" fill="#4ec6d0" stroke="none" opacity="0.65"/>
+  <path d="M174,94 C220,91 276,86 338,79 L338,108 C276,103 220,98 174,94 Z" fill="#007ea7" stroke="none" opacity="0.55"/>
   <line x1="174" y1="24" x2="174" y2="158" class="reference"/>
   <text x="174" y="18" class="note" text-anchor="middle">预测起点</text>
 </svg>

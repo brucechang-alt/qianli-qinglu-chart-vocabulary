@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-折线图示例 d-折线图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -13,18 +13,18 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
   <line x1="38" y1="20" x2="38" y2="158" class="axis"/>
   <text x="189" y="184" class="axis-title" text-anchor="middle" data-axis="x">月份</text>
   <text x="12" y="90" class="axis-title" text-anchor="middle" transform="rotate(-90 12 90)" data-axis="y">指数</text>
-  <polyline points="44,95.6 70,90.5 96,92.2 122,80.3 148,75.2 174,78.60000000000001 200,65 226,58.2 252,63.3 278,49.7 304,42.900000000000006 330,34.400000000000006" fill="none" stroke="#006f91" stroke-width="3"/>
-  <circle cx="44" cy="95.6" r="2.5" fill="#006f91"/>
-  <circle cx="70" cy="90.5" r="2.5" fill="#006f91"/>
-  <circle cx="96" cy="92.2" r="2.5" fill="#006f91"/>
-  <circle cx="122" cy="80.3" r="2.5" fill="#006f91"/>
-  <circle cx="148" cy="75.2" r="2.5" fill="#006f91"/>
-  <circle cx="174" cy="78.60000000000001" r="2.5" fill="#006f91"/>
-  <circle cx="200" cy="65" r="2.5" fill="#006f91"/>
-  <circle cx="226" cy="58.2" r="2.5" fill="#006f91"/>
-  <circle cx="252" cy="63.3" r="2.5" fill="#006f91"/>
-  <circle cx="278" cy="49.7" r="2.5" fill="#006f91"/>
-  <circle cx="304" cy="42.900000000000006" r="2.5" fill="#006f91"/>
-  <circle cx="330" cy="34.400000000000006" r="5" fill="#c44530"/>
+  <polyline points="44,95.6 70,90.5 96,92.2 122,80.3 148,75.2 174,78.60000000000001 200,65 226,58.2 252,63.3 278,49.7 304,42.900000000000006 330,34.400000000000006" fill="none" stroke="#007ea7" stroke-width="3"/>
+  <circle cx="44" cy="95.6" r="2.5" fill="#007ea7"/>
+  <circle cx="70" cy="90.5" r="2.5" fill="#007ea7"/>
+  <circle cx="96" cy="92.2" r="2.5" fill="#007ea7"/>
+  <circle cx="122" cy="80.3" r="2.5" fill="#007ea7"/>
+  <circle cx="148" cy="75.2" r="2.5" fill="#007ea7"/>
+  <circle cx="174" cy="78.60000000000001" r="2.5" fill="#007ea7"/>
+  <circle cx="200" cy="65" r="2.5" fill="#007ea7"/>
+  <circle cx="226" cy="58.2" r="2.5" fill="#007ea7"/>
+  <circle cx="252" cy="63.3" r="2.5" fill="#007ea7"/>
+  <circle cx="278" cy="49.7" r="2.5" fill="#007ea7"/>
+  <circle cx="304" cy="42.900000000000006" r="2.5" fill="#007ea7"/>
+  <circle cx="330" cy="34.400000000000006" r="5" fill="#e14b32"/>
   <text x="336" y="29" class="value" text-anchor="end">68</text>
 </svg>
