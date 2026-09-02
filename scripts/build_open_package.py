@@ -30,7 +30,7 @@ FAMILY_DIRS = [
 ]
 
 SVG_STYLE = """
-:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -80,7 +80,7 @@ def main() -> None:
 
     manifest: dict[str, object] = {
         "project": "Qianli Qinglu Chart Vocabulary",
-        "version": "1.0.0",
+        "version": "2.0.0",
         "chart_count": 0,
         "families": [],
     }

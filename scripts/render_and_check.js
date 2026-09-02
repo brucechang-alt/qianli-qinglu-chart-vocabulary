@@ -1,93 +1,14 @@
 #!/usr/bin/env node
-const http = require('http');
-const fs = require('fs');
-const path = require('path');
-const { chromium } = require('playwright');
-
-const root = path.resolve(__dirname, '..');
-const chrome = process.env.CHROME_PATH || undefined;
-const qaDir = path.resolve(process.env.QA_OUTPUT_DIR || path.join(root, 'qa'));
-fs.mkdirSync(qaDir, {recursive:true});
-const mime = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.md':'text/markdown; charset=utf-8'};
-
-function startServer() {
-  return new Promise((resolve) => {
-    const server = http.createServer((req, res) => {
-      const clean = decodeURIComponent(req.url.split('?')[0]);
-      if (clean === '/favicon.ico') { res.writeHead(204); res.end(); return; }
-      const candidate = path.resolve(root, '.' + (clean === '/' ? '/index.html' : clean));
-      if (!candidate.startsWith(root + path.sep) || !fs.existsSync(candidate) || fs.statSync(candidate).isDirectory()) {
-        res.writeHead(404); res.end('Not found'); return;
-      }
-      res.writeHead(200, {'content-type': mime[path.extname(candidate).toLowerCase()] || 'application/octet-stream'});
-      fs.createReadStream(candidate).pipe(res);
-    });
-    server.listen(0, '127.0.0.1', () => resolve(server));
-  });
-}
-
-(async () => {
-  const server = await startServer();
-  const port = server.address().port;
-  const browser = await chromium.launch({headless:true, ...(chrome ? {executablePath:chrome} : {})});
-  const failures = [];
-  const page = await browser.newPage({viewport:{width:1440,height:1000}, deviceScaleFactor:1});
-  page.on('console', msg => { if (msg.type() === 'error') failures.push(`console: ${msg.text()}`); });
-  page.on('requestfailed', req => failures.push(`request: ${req.url()} ${req.failure()?.errorText || ''}`));
-  await page.goto(`http://127.0.0.1:${port}/`, {waitUntil:'networkidle'});
-  await page.waitForFunction(() => document.querySelectorAll('.chart-card').length === 67);
-  await page.waitForTimeout(1800);
-  const desktop = await page.evaluate(() => ({
-    cards: document.querySelectorAll('.chart-card').length,
-    filters: document.querySelectorAll('#filters button').length,
-    width: document.documentElement.scrollWidth,
-    viewport: document.documentElement.clientWidth,
-    brokenImages: [...document.images].filter(img => !img.complete || img.naturalWidth === 0).map(img => img.src),
-    title: document.title
-  }));
-  const svgFetch = await page.evaluate(async () => {
-    const response = await fetch('charts/change/01-01.svg');
-    const body = await response.text();
-    return {status:response.status,type:response.headers.get('content-type'),length:body.length,start:body.slice(0,80)};
-  });
-  const svgPage = await browser.newPage({viewport:{width:720,height:380}});
-  const svgResponse = await svgPage.goto(`http://127.0.0.1:${port}/charts/change/01-01.svg`, {waitUntil:'load'});
-  const svgDirect = {status:svgResponse.status(), content:(await svgPage.content()).slice(0,800), metrics:await svgPage.evaluate(()=>({tag:document.documentElement.tagName,children:document.documentElement.children.length,bbox:document.documentElement.getBBox?document.documentElement.getBBox():null}))};
-  await svgPage.screenshot({path:path.join(qaDir,'svg-direct.png')});
-  const imageProbePage = await browser.newPage({viewport:{width:720,height:380}});
-  await imageProbePage.setContent(`<img id="probe" src="http://127.0.0.1:${port}/charts/change/01-01.svg" style="width:360px;height:190px">`);
-  await imageProbePage.waitForTimeout(1000);
-  const imageProbe = await imageProbePage.$eval('#probe', img => ({complete:img.complete,naturalWidth:img.naturalWidth,naturalHeight:img.naturalHeight}));
-  await imageProbePage.screenshot({path:path.join(qaDir,'svg-image-probe.png')});
-  await page.screenshot({path:path.join(root,'assets','qianli-qinglu-preview.jpg'),type:'jpeg',quality:90});
-
-  const poster = await browser.newPage({viewport:{width:2400,height:900}, deviceScaleFactor:1});
-  poster.on('requestfailed', req => failures.push(`poster request: ${req.url()} ${req.failure()?.errorText || ''}`));
-  await poster.goto(`http://127.0.0.1:${port}/src/qianli-qinglu-chart-vocabulary.html`, {waitUntil:'networkidle'});
-  const posterMetrics = await poster.evaluate(() => ({
-    width: document.documentElement.scrollWidth,
-    height: document.documentElement.scrollHeight,
-    families: document.querySelectorAll('.family-panel').length,
-    charts: document.querySelectorAll('.chart-shell svg').length,
-    referenceWidth: document.querySelector('.art-reference img')?.naturalWidth || 0,
-    referenceHeight: document.querySelector('.art-reference img')?.naturalHeight || 0,
-    brokenImages: [...document.images].filter(img => !img.complete || img.naturalWidth === 0).map(img => img.src)
-  }));
-  await poster.screenshot({path:path.join(root,'assets','qianli-qinglu-poster.png'),fullPage:true});
-
-  const mobile = await browser.newPage({viewport:{width:390,height:844}, deviceScaleFactor:1});
-  await mobile.goto(`http://127.0.0.1:${port}/`, {waitUntil:'networkidle'});
-  await mobile.waitForFunction(() => document.querySelectorAll('.chart-card').length === 67);
-  await mobile.waitForTimeout(1800);
-  const mobileMetrics = await mobile.evaluate(() => ({width:document.documentElement.scrollWidth,viewport:document.documentElement.clientWidth,cards:document.querySelectorAll('.chart-card').length,brokenImages:[...document.images].filter(img=>!img.complete||img.naturalWidth===0).length}));
-  await mobile.screenshot({path:path.join(qaDir,'mobile-page.png'),fullPage:false});
-
-  await browser.close(); server.close();
-  if (desktop.cards !== 67 || posterMetrics.families !== 9 || posterMetrics.charts !== 67) failures.push('chart or family count mismatch');
-  if (desktop.width > desktop.viewport || mobileMetrics.width > mobileMetrics.viewport) failures.push('horizontal overflow detected');
-  if (desktop.brokenImages.length || posterMetrics.brokenImages.length || mobileMetrics.brokenImages) failures.push('broken image detected');
-  const result = {desktop, svgFetch, svgDirect, imageProbe, poster:posterMetrics, mobile:mobileMetrics, failures};
-  fs.writeFileSync(path.join(root,'validation.json'), JSON.stringify(result,null,2)+'\n');
-  console.log(JSON.stringify(result,null,2));
-  if (failures.length) process.exit(1);
-})().catch(err => { console.error(err); process.exit(1); });
+const http=require('http');const fs=require('fs');const path=require('path');const {chromium}=require('playwright');
+const root=path.resolve(__dirname,'..'),qa=path.join(root,'qa'),chrome=process.env.CHROME_PATH||'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';fs.mkdirSync(qa,{recursive:true});
+const mime={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.md':'text/markdown; charset=utf-8'};
+function serve(){return new Promise(resolve=>{const server=http.createServer((req,res)=>{const clean=decodeURIComponent(req.url.split('?')[0]);if(clean==='/favicon.ico'){res.writeHead(204);res.end();return}const file=path.resolve(root,'.'+(clean==='/'?'/index.html':clean));if(!file.startsWith(root+path.sep)||!fs.existsSync(file)||fs.statSync(file).isDirectory()){res.writeHead(404);res.end('Not found');return}res.writeHead(200,{'content-type':mime[path.extname(file)]||'application/octet-stream'});fs.createReadStream(file).pipe(res)});server.listen(0,'127.0.0.1',()=>resolve(server))})}
+(async()=>{const failures=[],browserFailures=[];const server=await serve(),port=server.address().port;const browser=await chromium.launch({headless:true,executablePath:chrome});
+const manifest=JSON.parse(fs.readFileSync(path.join(root,'charts','manifest.json'),'utf8'));const expected=[67,...manifest.families.map(f=>f.charts.length)];
+const page=await browser.newPage({viewport:{width:1440,height:1000}});page.on('console',m=>{if(m.type()==='error')browserFailures.push(`console:${m.text()}`)});page.on('requestfailed',r=>browserFailures.push(`request:${r.url()}`));await page.goto(`http://127.0.0.1:${port}/`,{waitUntil:'networkidle'});await page.waitForFunction(()=>document.querySelectorAll('.chart-card').length===67);await page.waitForTimeout(500);
+const desktop=await page.evaluate(()=>{const ref=document.querySelector('.painting img');return{cards:document.querySelectorAll('.chart-card').length,filters:document.querySelectorAll('#filters button').length,downloads:document.querySelectorAll('.chart-card a[download]').length,width:document.documentElement.scrollWidth,viewport:document.documentElement.clientWidth,broken:[...document.images].filter(i=>!i.complete||!i.naturalWidth).length,reference:{width:ref.naturalWidth,height:ref.naturalHeight},eyebrow:document.querySelector('.eyebrow')?.textContent||''}});
+const filterAudit=await page.evaluate(()=>{const out=[];const buttons=[...document.querySelectorAll('#filters button')];for(const button of buttons){button.click();out.push({label:button.textContent.trim(),cards:document.querySelectorAll('.chart-card').length})}buttons[0].click();return out});await page.screenshot({path:path.join(root,'assets','qianli-qinglu-preview.jpg'),type:'jpeg',quality:91});
+const poster=await browser.newPage({viewport:{width:2400,height:1200}});poster.on('requestfailed',r=>browserFailures.push(`poster:${r.url()}`));await poster.goto(`http://127.0.0.1:${port}/src/qianli-qinglu-chart-vocabulary.html`,{waitUntil:'networkidle'});await poster.waitForFunction(()=>document.querySelectorAll('.family-panel').length===9&&document.querySelectorAll('.chart-shell svg').length===67);await poster.waitForTimeout(500);const posterMetrics=await poster.evaluate(()=>{const ref=document.querySelector('.art-reference img');return{width:document.documentElement.scrollWidth,height:document.documentElement.scrollHeight,families:document.querySelectorAll('.family-panel').length,charts:document.querySelectorAll('.chart-shell svg').length,broken:[...document.images].filter(i=>!i.complete||!i.naturalWidth).length,reference:{width:ref.naturalWidth,height:ref.naturalHeight},edition:document.querySelector('.edition')?.textContent||''}});await poster.screenshot({path:path.join(root,'assets','qianli-qinglu-poster.png'),fullPage:true});await poster.evaluate(()=>document.documentElement.style.filter='grayscale(1)');await poster.screenshot({path:path.join(qa,'qianli-qinglu-poster-grayscale.png'),fullPage:true});
+const mobile=await browser.newPage({viewport:{width:390,height:844}});mobile.on('requestfailed',r=>browserFailures.push(`mobile:${r.url()}`));await mobile.goto(`http://127.0.0.1:${port}/`,{waitUntil:'networkidle'});await mobile.waitForFunction(()=>document.querySelectorAll('.chart-card').length===67);await mobile.waitForTimeout(400);const mobileMetrics=await mobile.evaluate(()=>({width:document.documentElement.scrollWidth,viewport:document.documentElement.clientWidth,cards:document.querySelectorAll('.chart-card').length,broken:[...document.images].filter(i=>!i.complete||!i.naturalWidth).length,firstCardHeight:Math.round(document.querySelector('.chart-card').getBoundingClientRect().height)}));await mobile.screenshot({path:path.join(qa,'mobile-390.png'),fullPage:false});
+if(manifest.version!=='2.0.0')failures.push('manifest version is not 2.0.0');if(desktop.cards!==67||desktop.filters!==10||desktop.downloads!==67||posterMetrics.families!==9||posterMetrics.charts!==67)failures.push('browser count mismatch');if(filterAudit.some((row,i)=>row.cards!==expected[i]))failures.push('filter count mismatch');if(desktop.width>desktop.viewport||mobileMetrics.width>mobileMetrics.viewport)failures.push('horizontal overflow');if(desktop.broken||posterMetrics.broken||mobileMetrics.broken)failures.push('broken image');if(desktop.reference.width!==2160||desktop.reference.height!==432||posterMetrics.reference.width!==2160||posterMetrics.reference.height!==432)failures.push('reference artwork dimensions changed');if(posterMetrics.width!==2400)failures.push(`poster width ${posterMetrics.width}`);if(!posterMetrics.edition.includes('2.0')||!desktop.eyebrow.includes('V2.0'))failures.push('visible version label missing');failures.push(...browserFailures);
+await browser.close();server.close();const result={status:failures.length?'FAIL':'PASS',version:'2.0.0',desktop,filterAudit,poster:posterMetrics,mobile:mobileMetrics,failures};fs.writeFileSync(path.join(root,'validation.json'),JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result,null,2));if(failures.length)process.exit(1)})().catch(error=>{console.error(error);process.exit(1)});
