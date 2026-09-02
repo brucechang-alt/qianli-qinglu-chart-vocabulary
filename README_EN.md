@@ -1,10 +1,10 @@
-# Qianli Qinglü Chart Vocabulary
+# Qianli Qinglü Chart Vocabulary 2.0
 
-> The blue-and-green colors of *A Thousand Li of Rivers and Mountains*, translated for modern data stories.
+> Colour-purified edition: brighter screen colours for data marks, with darker tonal partners for readable small text.
 
 ![Qianli Qinglü Chart Vocabulary preview](assets/qianli-qinglu-preview.jpg)
 
-Qianli Qinglü is an open chart vocabulary inspired by the ordered intensity of Chinese blue-green landscape painting. It includes 9 relationship families, 67 editable SVG examples, a high-resolution poster, an editable HTML source and portable color tokens.
+Qianli Qinglü is an open chart vocabulary inspired by the ordered intensity of Chinese blue-green landscape painting. Version 2.0 includes 9 relationship families, 67 editable SVG examples, a high-resolution poster, an editable HTML source and portable colour tokens.
 
 ## What is included
 
@@ -17,7 +17,9 @@ Qianli Qinglü is an open chart vocabulary inspired by the ordered intensity of 
 
 ## Design principle
 
-Choose the relationship before choosing the chart. Color supports hierarchy and emphasis but never carries a distinction alone. Position, ordering, direct labels, line style, marker shape and open fills remain part of the visual language.
+Choose the relationship before choosing the chart. Colour supports hierarchy and emphasis but never carries a distinction alone. Position, ordering, direct labels, line style, marker shape and open fills remain part of the visual language. The Public Domain reference artwork remains unaltered; the chart system uses a separate high-chroma screen translation rather than sampling the aged image as if it represented original pigment intensity.
+
+The vivid roots are `#007EA7`, `#259B62`, `#D99A16`, `#E14B32` and `#8351B2`. They are used for marks. Small coloured text uses darker partners that meet the contrast target on `#FAF2D9` paper.
 
 ## License
 

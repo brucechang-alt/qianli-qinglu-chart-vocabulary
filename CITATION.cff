@@ -5,8 +5,8 @@ type: software
 authors:
   - name: "AI记者"
     alias: "AI Reporter"
-version: 1.0.0
-date-released: 2026-09-01
+version: 2.0.0
+date-released: 2026-09-02
 license: MIT
 repository-code: "https://github.com/brucechang-alt/qianli-qinglu-chart-vocabulary"
 url: "https://brucechang-alt.github.io/qianli-qinglu-chart-vocabulary/"
