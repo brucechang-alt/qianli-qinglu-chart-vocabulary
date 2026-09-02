@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-脊柱图示例 d-脊柱图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -10,20 +10,20 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
   <title id="t-脊柱图示例">脊柱图示例</title>
   <desc id="d-脊柱图示例">每一行以50%中线比较两部分。</desc>
   <line x1="180" y1="20" x2="180" y2="164" class="zero"/>
-  <rect x="52" y="28" width="107.52" height="18" fill="#e48f75"/>
-  <rect x="159.51999999999998" y="28" width="148.48" height="18" fill="#006f91"/>
+  <rect x="52" y="28" width="107.52" height="18" fill="#f09a78"/>
+  <rect x="159.51999999999998" y="28" width="148.48" height="18" fill="#007ea7"/>
   <text x="46" y="41" class="value" text-anchor="end">42%</text>
   <text x="314" y="41" class="value" text-anchor="start">58%</text>
-  <rect x="52" y="62" width="140.8" height="18" fill="#e48f75"/>
-  <rect x="192.8" y="62" width="115.2" height="18" fill="#006f91"/>
+  <rect x="52" y="62" width="140.8" height="18" fill="#f09a78"/>
+  <rect x="192.8" y="62" width="115.2" height="18" fill="#007ea7"/>
   <text x="46" y="75" class="value" text-anchor="end">55%</text>
   <text x="314" y="75" class="value" text-anchor="start">45%</text>
-  <rect x="52" y="96" width="171.52" height="18" fill="#e48f75"/>
-  <rect x="223.52" y="96" width="84.48" height="18" fill="#006f91"/>
+  <rect x="52" y="96" width="171.52" height="18" fill="#f09a78"/>
+  <rect x="223.52" y="96" width="84.48" height="18" fill="#007ea7"/>
   <text x="46" y="109" class="value" text-anchor="end">67%</text>
   <text x="314" y="109" class="value" text-anchor="start">33%</text>
-  <rect x="52" y="130" width="122.88" height="18" fill="#e48f75"/>
-  <rect x="174.88" y="130" width="133.12" height="18" fill="#006f91"/>
+  <rect x="52" y="130" width="122.88" height="18" fill="#f09a78"/>
+  <rect x="174.88" y="130" width="133.12" height="18" fill="#007ea7"/>
   <text x="46" y="143" class="value" text-anchor="end">48%</text>
   <text x="314" y="143" class="value" text-anchor="start">52%</text>
 </svg>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg class="chart-svg" role="img" aria-labelledby="t-发散条形图示例 d-发散条形图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
-  <style>:root{--paper:#f3e6c6;--ink:#28231b;--muted:#736249;--rule:#c4a971;--cinnabar:#c44530;--stone-blue:#006f91;--stone-green:#2f8456;--ochre:#b97a12}
+  <style>:root{--paper:#faf2d9;--ink:#1c211d;--muted:#625c4d;--rule:#cdbd8f;--cinnabar:#e14b32;--stone-blue:#007ea7;--stone-green:#259b62;--ochre:#d99a16}
 text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
 .label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
 .value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
@@ -10,16 +10,16 @@ text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;f
   <title id="t-发散条形图示例">发散条形图示例</title>
   <desc id="d-发散条形图示例">四个类别围绕零线向左右展开。</desc>
   <line x1="180" y1="20" x2="180" y2="166" class="zero"/>
-  <rect x="77.6" y="30" width="102.4" height="18" fill="#c44530"/>
+  <rect x="77.6" y="30" width="102.4" height="18" fill="#e14b32"/>
   <text x="174" y="43" class="value" text-anchor="end">-32</text>
   <text x="70" y="43" class="label" text-anchor="end">住房</text>
-  <rect x="122.4" y="64" width="57.6" height="18" fill="#c44530"/>
+  <rect x="122.4" y="64" width="57.6" height="18" fill="#e14b32"/>
   <text x="174" y="77" class="value" text-anchor="end">-18</text>
   <text x="70" y="77" class="label" text-anchor="end">交通</text>
-  <rect x="180" y="98" width="44.800000000000004" height="18" fill="#006f91"/>
+  <rect x="180" y="98" width="44.800000000000004" height="18" fill="#007ea7"/>
   <text x="186" y="111" class="value" text-anchor="start">+14</text>
   <text x="290" y="111" class="label" text-anchor="start">医疗</text>
-  <rect x="180" y="132" width="92.80000000000001" height="18" fill="#006f91"/>
+  <rect x="180" y="132" width="92.80000000000001" height="18" fill="#007ea7"/>
   <text x="186" y="145" class="value" text-anchor="start">+29</text>
   <text x="290" y="145" class="label" text-anchor="start">教育</text>
 </svg>
